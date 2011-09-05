@@ -4,7 +4,7 @@ Plugin Name: Custom Post Donations
 Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: hahncgdev
-Version: 1.0
+Version: 1.5
 Author URI: http://labs.HahnCreativeGroup.com/
 */
 
@@ -182,32 +182,37 @@ function createCPDonationForm($cpDonationName) {
 	
 }
 
-function cpDonation($text) {	
-	//
-	// Filter replaces short codes with generated content
-	//
-	$filteredText = $text;
-	
-	// continue to loop through content until all short codes have been replaced
-	while (preg_match("/(\[)(cpDonation)=(\w+)(\])/", $filteredText) == 1)
-	{	
-		// reg ex to get cpDonation id name
-		preg_match("/(\[)(cpDonation)=(\w+)(\])/", $filteredText, $matches);		
-		
-		$cpDonationName = $matches[3];						
-		
-		
-		// create string to replace cpDonation short codes with active donation form		
-		$str = createCPDonationForm($cpDonationName);			
-		
-		// reg ex to perform actual replacement					
-		$filteredText = preg_replace("/(\[)(cpDonation)=(\w+)(\])/", $str, $filteredText, 1);			
-		
-	}		
-	
-	echo $filteredText;	
+//function cpDonation($text) {	
+//	//
+//	// Filter replaces short codes with generated content
+//	//
+//	$filteredText = $text;
+//	
+//	// continue to loop through content until all short codes have been replaced
+//	while (preg_match("/(\[)(cpDonation)=(\w+)(\])/", $filteredText) == 1)
+//	{	
+//		// reg ex to get cpDonation id name
+//		preg_match("/(\[)(cpDonation)=(\w+)(\])/", $filteredText, $matches);		
+//		
+//		$cpDonationName = $matches[3];						
+//		
+//		
+//		// create string to replace cpDonation short codes with active donation form		
+//		$str = createCPDonationForm($cpDonationName);			
+//		
+//		// reg ex to perform actual replacement					
+//		$filteredText = preg_replace("/(\[)(cpDonation)=(\w+)(\])/", $str, $filteredText, 1);			
+//		
+//	}		
+//	
+//	echo $filteredText;	
+//}
+//add_filter ('the_content', 'cpDonation', 15);
+
+function cpDonation_Handler($atts) {
+	return createCPDonationForm($atts[id]);
 }
-add_filter ('the_content', 'cpDonation', 15);
+add_shortcode('cpDonation', 'cpDonation_Handler');
 
 // Taken from Google XML Sitemaps from Arne Brachhold
 	function add_cpDonations_plugin_links($links, $file) {
