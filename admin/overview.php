@@ -122,11 +122,7 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM wp_cp_donations" );
             <td width="100"><a href="http://27819begx2p0jf02zmh2ly4cbz.hop.clickbank.net/" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/blogsuccessacademy.jpg" border="0" alt="Blog Success Academy" /></a></td>
             <td align="center"><a href="http://d01f18bevzr9uf36pzlacgwbv8.hop.clickbank.net/?tid=9QGHV932" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/mobileBannerCreator.jpg" border="0" alt="Mobile Banner Creator" /></a></td>
             <td align="right"><a href="http://cad297e9-0i4ou60sxokxl0rf3.hop.clickbank.net/" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/WordPressVideos.jpg" border="0" alt="WordPress Tutorial Videos" /></a></td>
-            </tr>
-            <tr>
-            
-            <td></td>
-            </tr>
+            </tr>            
             </tbody>
             </table>
      </form>
