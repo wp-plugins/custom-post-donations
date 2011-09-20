@@ -105,23 +105,20 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM wp_cp_donations" );
      <table class="widefat post fixed" cellspacing="0">
     	<thead>
         <tr>
-        	<th>WordPress Blogging Tutorials</th>
-            <th></th>
+        	<th>WordPress Blogging Tutorials and Resources</th>
             <th></th>                       
         </tr>
         </thead>
         <tfoot>
         <tr>
-        	<th>WordPress Blogging Tutorials</th>
-            <th></th>
+        	<th>WordPress Blogging Tutorials and Resources</th>
             <th></th>
         </tr>
         </tfoot>
         <tbody>        				
-            <tr>            
-            <td width="100"><a href="http://27819begx2p0jf02zmh2ly4cbz.hop.clickbank.net/" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/blogsuccessacademy.jpg" border="0" alt="Blog Success Academy" /></a></td>
-            <td align="center"><a href="http://d01f18bevzr9uf36pzlacgwbv8.hop.clickbank.net/?tid=9QGHV932" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/mobileBannerCreator.jpg" border="0" alt="Mobile Banner Creator" /></a></td>
-            <td align="right"><a href="http://cad297e9-0i4ou60sxokxl0rf3.hop.clickbank.net/" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/WordPressVideos.jpg" border="0" alt="WordPress Tutorial Videos" /></a></td>
+            <tr>
+            <td><a href="http://4ef7fcjby1v1mmaqtgrfsiv92v.hop.clickbank.net/" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/seopressor.jpg" border="0" alt="" /></a><p><a href="http://4ef7fcjby1v1mmaqtgrfsiv92v.hop.clickbank.net/" target="_blank">SEOPressor simplifies On-Page SEO and helps Skyrocket your website into major Search Engines</a>.</p></td>            
+            <td><a href="http://27819begx2p0jf02zmh2ly4cbz.hop.clickbank.net/" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/blogsuccessacademy.jpg" border="0" alt="Blog Success Academy" /></a></td>       
             </tr>            
             </tbody>
             </table>
