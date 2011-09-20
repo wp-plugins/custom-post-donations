@@ -4,7 +4,7 @@ global $wpdb;
 if(isset($_POST['cpDonationBusiness']) && $_POST['cpDonationBusiness'] != "Enter Email Address") {
 	update_option("cpDonations_Business_Name", $_POST['cpDonationBusiness']);	
 }
-else {
+else if (get_option("cpDonations_Business_Name") == "") {
 	?>  
     <div class="updated"><p><strong><?php _e('Please enter your PayPal email address.' ); ?></strong></p></div>  
     <?php	

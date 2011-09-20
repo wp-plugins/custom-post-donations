@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: paypal, ecommerce, paypal in wordpress, wordpress paypal, paypal, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin
 Requires at least: 2.6
 Tested up to: 3.2.1
-Stable tag: 1.5
+Stable tag: 1.5.1
 
 PayPal in WordPress Plugin. eCommerce WordPress plugin. Customizable PayPal Widgets for WordPress. PayPal integration.
 
@@ -33,13 +33,10 @@ Be sure to also check out <a href='http://wordpress.org/extend/plugins/prosperit
 == Changelog ==
 
 **Aug. 18, 2001 - v1.0**
-
 * Initial release.
 
 **Sept. 5, 2011 - v1.5**
-
 * Changed shortcode rendering to fix bug / conflict with excerpt function.
 
-
-
-
+**Sept. 20, 2011 - v1.5.1**
+* Fixed issue with error notification not being removed - 'Please enter your PayPal email address.'
