@@ -12,9 +12,11 @@ PayPal in WordPress Plugin. eCommerce WordPress plugin. Customizable PayPal Widg
 
 This WordPress plugin will allow you to create unique customized PayPal donation widgets to insert into your WordPress posts or pages and accept donations. WP Plugin for creating custom PayPal donation widgets. WordPress ecommerce.
 
+<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
+
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
-Be sure to also check out <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a>.
+Be sure to also check out the <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> plugin.
 
 == Installation ==
 
@@ -33,10 +35,13 @@ Be sure to also check out <a href='http://wordpress.org/extend/plugins/prosperit
 == Changelog ==
 
 **Aug. 18, 2001 - v1.0**
+
 * Initial release.
 
 **Sept. 5, 2011 - v1.5**
+
 * Changed shortcode rendering to fix bug / conflict with excerpt function.
 
 **Sept. 20, 2011 - v1.5.1**
-* Fixed issue with error notification not being removed - 'Please enter your PayPal email address.'
+
+* Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
