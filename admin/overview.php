@@ -82,6 +82,8 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM wp_cp_donations" );
             </tr>			
         </tbody>
      </table>
+     <br />
+     <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/">Upgrade to the Pro Version</a></h2>
      <hr />
      <br /><br />     
      <table class="widefat post fixed" cellspacing="0">

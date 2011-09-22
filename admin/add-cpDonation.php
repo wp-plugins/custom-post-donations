@@ -109,6 +109,8 @@ if(isset($_POST['cpDonation_add']))
                 <td></td>
             </tr>
         </tbody>
-	</table>
+	</table>    
     </form>
+    <br />
+     <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/">Upgrade to the Pro Version</a></h2>
 </div>
