@@ -46,3 +46,5 @@ Be sure to also check out the <a href='http://wordpress.org/extend/plugins/prosp
 
 * Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
 
+
+
