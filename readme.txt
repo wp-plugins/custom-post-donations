@@ -1,7 +1,7 @@
 === Custom Post Donations ===
 Contributors: hahncgdev
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S
-Tags: paypal, ecommerce, paypal in wordpress, wordpress paypal, paypal, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, dons, doações, bagis, spenden, donaciones, sumbangan
+Tags: paypal, ecommerce, paypal in wordpress, wordpress paypal, paypal, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin
 Requires at least: 2.6
 Tested up to: 3.2.1
 Stable tag: 1.5.1
@@ -45,6 +45,8 @@ Be sure to also check out the <a href='http://wordpress.org/extend/plugins/prosp
 **Sept. 20, 2011 - v1.5.1**
 
 * Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
+
+
 
 
 
