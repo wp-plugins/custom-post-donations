@@ -12,7 +12,7 @@ global $cpDonations_table;
 global $cpDonations_plugin_db_version;
 global $wpdb;
 $cpDonations_table = $wpdb->prefix . 'cp_donations';
-$cpDonations_plugin_db_version = '1.1';
+$cpDonations_plugin_db_version = '1.2';
 
 register_activation_hook( __FILE__,  'cpDonations_install' );
 
@@ -181,33 +181,6 @@ function createCPDonationForm($cpDonationName) {
 	}
 	
 }
-
-//function cpDonation($text) {	
-//	//
-//	// Filter replaces short codes with generated content
-//	//
-//	$filteredText = $text;
-//	
-//	// continue to loop through content until all short codes have been replaced
-//	while (preg_match("/(\[)(cpDonation)=(\w+)(\])/", $filteredText) == 1)
-//	{	
-//		// reg ex to get cpDonation id name
-//		preg_match("/(\[)(cpDonation)=(\w+)(\])/", $filteredText, $matches);		
-//		
-//		$cpDonationName = $matches[3];						
-//		
-//		
-//		// create string to replace cpDonation short codes with active donation form		
-//		$str = createCPDonationForm($cpDonationName);			
-//		
-//		// reg ex to perform actual replacement					
-//		$filteredText = preg_replace("/(\[)(cpDonation)=(\w+)(\])/", $str, $filteredText, 1);			
-//		
-//	}		
-//	
-//	echo $filteredText;	
-//}
-//add_filter ('the_content', 'cpDonation', 15);
 
 function cpDonation_Handler($atts) {
 	return createCPDonationForm($atts[id]);

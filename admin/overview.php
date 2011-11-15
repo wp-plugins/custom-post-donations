@@ -84,6 +84,14 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM wp_cp_donations" );
      </table>
      <br />
      <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/">Upgrade to the Pro Version</a></h2>
+     <ul>
+        <li>Add customized donation forms to your posts or pages</li>
+        <li>Designate alternate PayPal accounts for donations</li>
+        <li>Add donation form titles</li>
+        <li>Manage multiple donation forms from the easy access admin interface</li>
+        <li>Ability to edit donation widgets</li>
+     </ul>
+     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/">Pro Version - only $14.95</a></strong>
      <hr />
      <br /><br />     
      <table class="widefat post fixed" cellspacing="0">
