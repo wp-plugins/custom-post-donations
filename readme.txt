@@ -24,7 +24,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
-Be sure to also check out the <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> plugin.
+Be sure to also check out these other plugins: <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/'>WP Easy Gallery</a>.
 
 == Installation ==
 
@@ -53,6 +53,7 @@ Be sure to also check out the <a href='http://wordpress.org/extend/plugins/prosp
 **Sept. 20, 2011 - v1.5.1**
 
 * Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
+
 
 
 

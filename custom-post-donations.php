@@ -178,8 +178,7 @@ function createCPDonationForm($cpDonationName) {
 	}
 	else {
 		return "";	
-	}
-	
+	}	
 }
 
 function cpDonation_Handler($atts) {
@@ -188,15 +187,13 @@ function cpDonation_Handler($atts) {
 add_shortcode('cpDonation', 'cpDonation_Handler');
 
 // Taken from Google XML Sitemaps from Arne Brachhold
-	function add_cpDonations_plugin_links($links, $file) {
-		
-		if ( $file == plugin_basename(__FILE__) ) {			
-			$links[] = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AZLPGKSCJBPKS">' . __('Donate', 'cpDonations') . '</a>';			
-		}
-		return $links;
+function add_cpDonations_plugin_links($links, $file) {	
+	if ( $file == plugin_basename(__FILE__) ) {			
+		$links[] = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AZLPGKSCJBPKS">' . __('Donate', 'cpDonations') . '</a>';			
 	}
+	return $links;
+}
 	
-//Add some links on the plugin page
+//Add the extra links on the plugin page
 add_filter('plugin_row_meta', 'add_cpDonations_plugin_links', 10, 2);
-
 ?>
