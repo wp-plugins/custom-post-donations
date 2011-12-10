@@ -57,4 +57,3 @@ Be sure to also check out these other plugins: <a href='http://wordpress.org/ext
 **Dec. 9, 2011 - v1.5.2**
 
 * Fixed issue preventing custom database prefixes from passing through.
-
