@@ -1,5 +1,6 @@
 <?php
 global $wpdb;
+global $cpDonations_table;
 
 if(isset($_POST['cpDonationBusiness']) && $_POST['cpDonationBusiness'] != "Enter Email Address") {
 	update_option("cpDonations_Business_Name", $_POST['cpDonationBusiness']);	
@@ -11,14 +12,14 @@ else if (get_option("cpDonations_Business_Name") == "") {
 }
 
 if(isset($_POST['cpDonationId'])) {	
-	$wpdb->query( "DELETE FROM wp_cp_donations WHERE Id = '".$_POST['cpDonationId']."'" );
+	$wpdb->query( "DELETE FROM $cpDonations_table WHERE Id = '".$_POST['cpDonationId']."'" );
 		
 	?>  
 	<div class="updated"><p><strong><?php _e('CP Donation Form has been deleted.' ); ?></strong></p></div>  
 	<?php	
 }
 
-$cpDonationWidgets = $wpdb->get_results( "SELECT * FROM wp_cp_donations" );
+$cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
 ?>
 <div class='wrap'>
 	<h2>Custom Post Donation Widgets</h2>
@@ -83,17 +84,6 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM wp_cp_donations" );
         </tbody>
      </table>
      <br />
-     <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/">Upgrade to the Pro Version</a></h2>
-     <ul>
-        <li>Add customized donation forms to your posts or pages</li>
-        <li>Designate alternate PayPal accounts for donations</li>
-        <li>Add donation form titles</li>
-        <li>Manage multiple donation forms from the easy access admin interface</li>
-        <li>Ability to edit donation widgets</li>
-     </ul>
-     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/">Pro Version - only $14.95</a></strong>
-     <hr />
-     <br /><br />     
      <table class="widefat post fixed" cellspacing="0">
     	<thead>
         <tr>
@@ -111,26 +101,18 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM wp_cp_donations" );
             </tr>
             </tbody>
             </table>
-     <br />     
-     <table class="widefat post fixed" cellspacing="0">
-    	<thead>
-        <tr>
-        	<th>WordPress Blogging Tutorials and Resources</th>
-            <th></th>                       
-        </tr>
-        </thead>
-        <tfoot>
-        <tr>
-        	<th>WordPress Blogging Tutorials and Resources</th>
-            <th></th>
-        </tr>
-        </tfoot>
-        <tbody>        				
-            <tr>
-            <td><a href="http://4ef7fcjby1v1mmaqtgrfsiv92v.hop.clickbank.net/" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/seopressor.jpg" border="0" alt="" /></a><p><a href="http://4ef7fcjby1v1mmaqtgrfsiv92v.hop.clickbank.net/" target="_blank">SEOPressor simplifies On-Page SEO and helps Skyrocket your website into major Search Engines</a>.</p></td>            
-            <td><a href="http://27819begx2p0jf02zmh2ly4cbz.hop.clickbank.net/" target="_blank"><img src="../wp-content/plugins/custom-post-donations/admin/images/blogsuccessacademy.jpg" border="0" alt="Blog Success Academy" /></a></td>       
-            </tr>            
-            </tbody>
-            </table>
+     <p><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" border="0" alt="Custom Post Donations Pro" /></a></p>
+     <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></h2>
+     <ul>
+        <li>Add customized donation forms to your posts or pages</li>
+        <li>Designate alternate PayPal accounts for donations</li>
+        <li>Add donation form titles</li>
+        <li>Manage multiple donation forms from the easy access admin interface</li>
+        <li>Ability to edit donation widgets</li>
+     </ul>
+     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Pro Version - only <s>$14.95</s> $2.99 (until 2012)</a></strong>
+     <hr />     
+     
+     <p><a href="http://mhlnk.com/8572E215" ><img src="http://media.markethealth.com/bannerServer.php?type=image&ad_id=1865&aid=934801" border="0"></a></p>
      </form>
 </div>

@@ -1,5 +1,6 @@
 <?php
 global $wpdb;
+global $cpDonations_table;
 
 // add new donation widget
 if(isset($_POST['cpDonation_add']))
@@ -28,7 +29,7 @@ if(isset($_POST['cpDonation_add']))
 			  $cpDonationAmount = $_POST['cpDonationAmount'];
 			  $cpDonationType = $_POST['cpDonationType'];
 			  $cpDonationMaxItems = ($_POST['cpDonationMaxItems'] != null) ? $_POST['cpDonationMaxItems'] : 1;
-			  $donationAdded = $wpdb->insert( 'wp_cp_donations', array( 'name' => $cpDonationName, 'slug' => $slug, 'description' => $cpDonationDescription, 'donationtype' => $cpDonationType, 'defaultdonation' => $cpDonationAmount, 'maxitems' => $cpDonationMaxItems ) );
+			  $donationAdded = $wpdb->insert( $cpDonations_table, array( 'name' => $cpDonationName, 'slug' => $slug, 'description' => $cpDonationDescription, 'donationtype' => $cpDonationType, 'defaultdonation' => $cpDonationAmount, 'maxitems' => $cpDonationMaxItems ) );
 			  
 			  if($donationAdded) {
 			  ?>  
@@ -112,7 +113,25 @@ if(isset($_POST['cpDonation_add']))
 	</table>    
     </form>
     <br />
-     <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/">Upgrade to the Pro Version</a></h2>
+    <table class="widefat post fixed" cellspacing="0">
+    	<thead>
+        <tr>
+        	<th>Please Consider Supporting this Plugin by Donating</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+        	<th></th>
+        </tr>
+        </tfoot>
+        <tbody>        				
+            <tr>
+            <td><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></a><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></td>            
+            </tr>
+            </tbody>
+            </table>     
+    <p><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" border="0" alt="Custom Post Donations Pro" /></a></p>
+     <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></h2>
      <ul>
         <li>Add customized donation forms to your posts or pages</li>
         <li>Designate alternate PayPal accounts for donations</li>
@@ -120,5 +139,8 @@ if(isset($_POST['cpDonation_add']))
         <li>Manage multiple donation forms from the easy access admin interface</li>
         <li>Ability to edit donation widgets</li>
      </ul>
-     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/">Pro Version - only $14.95</a></strong>
+     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Pro Version - only <s>$14.95</s> $2.99 (until 2012)</a></strong>
+     <br />
+     <hr />
+     <p><a href="http://mhlnk.com/8572E215" ><img src="http://media.markethealth.com/bannerServer.php?type=image&ad_id=1865&aid=934801" border="0"></a></p>
 </div>
