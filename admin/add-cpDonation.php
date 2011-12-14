@@ -135,6 +135,7 @@ if(isset($_POST['cpDonation_add']))
      <ul>
         <li>Add customized donation forms to your posts or pages</li>
         <li>Designate alternate PayPal accounts for donations</li>
+		<li>Add fixed additional amount, such as a shipping charge</li>
         <li>Add donation form titles</li>
         <li>Manage multiple donation forms from the easy access admin interface</li>
         <li>Ability to edit donation widgets</li>
