@@ -16,6 +16,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 * Add customized donation forms to your posts or pages
 * Designate alternate PayPal accounts for donations
+* Add additional fixed amounts, such as a shipping charge
 * Add donation form titles
 * Manage multiple donation forms from the easy access admin interface
 * Ability to edit donation widgets
