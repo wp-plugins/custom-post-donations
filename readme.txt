@@ -20,7 +20,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 * Manage multiple donation forms from the easy access admin interface
 * Ability to edit donation widgets
 
-<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Pro Version - only $14.95</a>
+<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Pro Version - only <s>$14.95</s> $2.99 (this week only)</a>
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
