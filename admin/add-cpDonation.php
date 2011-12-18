@@ -140,7 +140,7 @@ if(isset($_POST['cpDonation_add']))
         <li>Manage multiple donation forms from the easy access admin interface</li>
         <li>Ability to edit donation widgets</li>
      </ul>
-     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Pro Version - only <s>$14.95</s> $2.99 (until 2012)</a></strong>
+     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Pro Version - only $14.95</a></strong>
      <br />
      <hr />
      <p><a href="http://mhlnk.com/8572E215" ><img src="http://media.markethealth.com/bannerServer.php?type=image&ad_id=1865&aid=934801" border="0"></a></p>
