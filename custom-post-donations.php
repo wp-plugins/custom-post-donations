@@ -196,5 +196,4 @@ function add_cpDonations_plugin_links($links, $file) {
 	
 //Add the extra links on the plugin page
 add_filter('plugin_row_meta', 'add_cpDonations_plugin_links', 10, 2);
-
 ?>

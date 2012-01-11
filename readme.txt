@@ -14,9 +14,9 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 <a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
 
+* Now supports multiple currencies
 * Add customized donation forms to your posts or pages
 * Designate alternate PayPal accounts for donations
-* Add additional fixed amounts, such as a shipping charge
 * Add donation form titles
 * Manage multiple donation forms from the easy access admin interface
 * Ability to edit donation widgets
@@ -57,4 +57,5 @@ Be sure to also check out these other plugins: <a href='http://wordpress.org/ext
 
 **Dec. 9, 2011 - v1.5.2**
 
-* Fixed issue preventing custom database prefixes from passing through.
+* Fixed issue preventing custom database prefixes from passing through
+
