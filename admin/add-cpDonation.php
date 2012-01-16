@@ -132,7 +132,8 @@ if(isset($_POST['cpDonation_add']))
             </table>     
     <p><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" border="0" alt="Custom Post Donations Pro" /></a></p>
      <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></h2>
-     <ul>
+     <ul>        
+        <li>New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations</li>
         <li>Now supports multiple currencies</li>
         <li>Add customized donation forms to your posts or pages</li>
         <li>Designate alternate PayPal accounts for donations</li>
@@ -140,7 +141,7 @@ if(isset($_POST['cpDonation_add']))
         <li>Manage multiple donation forms from the easy access admin interface</li>
         <li>Ability to edit donation widgets</li>
      </ul>
-     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Pro Version - only $14.95</a></strong>
+     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></strong>
      <br />
      <hr />
      <p><a href="http://mhlnk.com/8572E215" ><img src="http://media.markethealth.com/bannerServer.php?type=image&ad_id=1865&aid=934801" border="0"></a></p>
