@@ -1,7 +1,7 @@
 === Custom Post Donations ===
 Contributors: hahncgdev
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S
-Tags: paypal, ecommerce, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising
+Tags: paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising
 Requires at least: 2.6
 Tested up to: 3.3.1
 Stable tag: 1.5.2
@@ -59,3 +59,4 @@ Be sure to also check out these other plugins: <a href='http://wordpress.org/ext
 **Dec. 9, 2011 - v1.5.2**
 
 * Fixed issue preventing custom database prefixes from passing through
+
