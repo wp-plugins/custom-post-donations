@@ -65,3 +65,4 @@ Be sure to also check out these other plugins: <a href='http://labs.hahncreative
 **Feb. 14, 2012 - v1.6**
 
 * Code refinements to PHP and Javascript
+
