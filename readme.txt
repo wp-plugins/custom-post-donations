@@ -52,8 +52,6 @@ Be sure to also check out these other plugins: <a href='http://labs.hahncreative
 
 * Changed shortcode rendering to fix bug / conflict with excerpt function.
 
-
-
 **Sept. 20, 2011 - v1.5.1**
 
 * Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
@@ -65,4 +63,3 @@ Be sure to also check out these other plugins: <a href='http://labs.hahncreative
 **Feb. 14, 2012 - v1.6**
 
 * Code refinements to PHP and Javascript
-
