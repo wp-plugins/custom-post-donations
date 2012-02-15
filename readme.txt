@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising
 Requires at least: 2.6
 Tested up to: 3.3.1
-Stable tag: 1.5.2
+Stable tag: 1.6
 
 PayPal in WordPress Plugin. eCommerce WordPress plugin. Customizable PayPal Widgets for WordPress. PayPal integration.
 
@@ -26,7 +26,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
-Be sure to also check out these other plugins: <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/'>WP Easy Gallery</a>.
+Be sure to also check out these other plugins: <a href='http://labs.hahncreativegroup.com/wordpress-plugins/wp-easy-gallery-pro-simple-wordpress-gallery-plugin/'>WP Easy Gallery Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/'>WP Easy Gallery</a>.
 
 == Installation ==
 
@@ -52,6 +52,8 @@ Be sure to also check out these other plugins: <a href='http://wordpress.org/ext
 
 * Changed shortcode rendering to fix bug / conflict with excerpt function.
 
+
+
 **Sept. 20, 2011 - v1.5.1**
 
 * Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
@@ -59,3 +61,8 @@ Be sure to also check out these other plugins: <a href='http://wordpress.org/ext
 **Dec. 9, 2011 - v1.5.2**
 
 * Fixed issue preventing custom database prefixes from passing through
+
+**Feb. 14, 2012 - v1.6**
+
+* Code refinements to PHP and Javascript
+

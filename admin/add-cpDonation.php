@@ -2,13 +2,20 @@
 global $wpdb;
 global $cpDonations_table;
 
+$cpDonationName = '';
+$publicationDate = '';	  
+$slug = '';
+$cpDonationDescription = '';
+$cpDonationAmount = '';
+$cpDonationType = '';			  
+$cpDonationMaxItems = '';
+
 // add new donation widget
 if(isset($_POST['cpDonation_add']))
 	{
 		if($_POST['cpDonationName'] != "") {
 			if($_POST['cpDonationType'] > 2 && $_POST['cpDonationMaxItems'] == null) {
-			  $cpDonationName = $_POST['cpDonationName'];
-			  $publicationDate = $_POST['publicationDate'];	  
+			  $cpDonationName = $_POST['cpDonationName'];  
 			  $slug = strtolower(str_replace(" ", "", $_POST['cpDonationName']));
 			  $cpDonationDescription = $_POST['cpDonationDescription'];
 			  $cpDonationAmount = $_POST['cpDonationAmount'];
@@ -22,8 +29,7 @@ if(isset($_POST['cpDonation_add']))
 			  
 			  global $wpdb;
 			  
-			  $cpDonationName = $_POST['cpDonationName'];
-			  $publicationDate = $_POST['publicationDate'];	  
+			  $cpDonationName = $_POST['cpDonationName'];  
 			  $slug = strtolower(str_replace(" ", "", $_POST['cpDonationName']));
 			  $cpDonationDescription = $_POST['cpDonationDescription'];
 			  $cpDonationAmount = $_POST['cpDonationAmount'];
@@ -85,9 +91,9 @@ if(isset($_POST['cpDonation_add']))
             	<td><strong>Select Widget Type:</strong></td>
                 <td>
                   <select name="cpDonationType">
-                  	<option value="1">Standard Donation</option>
-                    <option value="2">Fixed + Additional</option>
-                    <option value="3">Per Item + Additional</option>
+                  	<option value="1"<?php echo ($cpDonationType == 1) ? " selected='selected'" : "" ?>>Standard Donation</option>
+                    <option value="2"<?php echo ($cpDonationType == 2) ? " selected='selected'" : "" ?>>Fixed + Additional</option>
+                    <option value="3"<?php echo ($cpDonationType == 3) ? " selected='selected'" : "" ?>>Per Item + Additional</option>
                   </select>
                 </td>
                 <td>
@@ -144,5 +150,6 @@ if(isset($_POST['cpDonation_add']))
      <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></strong>
      <br />
      <hr />
-     <p><a href="http://mhlnk.com/8572E215" ><img src="http://media.markethealth.com/bannerServer.php?type=image&ad_id=1865&aid=934801" border="0"></a></p>
+     <h3>Try also - <a href="http://labs.hahncreativegroup.com/wordpress-plugins/wp-easy-gallery-pro-simple-wordpress-gallery-plugin/?src=cpd">WP Easy Gallery Pro</a></h3>
+     <p>WP Easy Gallery allows you to manage multiple image galleries through an easy to use admin interface.</p>
 </div>

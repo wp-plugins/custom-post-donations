@@ -23,7 +23,8 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
 ?>
 <div class='wrap'>
 	<h2>Custom Post Donation Widgets</h2>
-    <p>This is a listing of all CP Donation Forms.</p>
+    <p style="float: left;">This is a listing of all CP Donation Forms.</p>
+    <p style="float: right;">Try also - <a href="http://labs.hahncreativegroup.com/wordpress-plugins/wp-easy-gallery-pro-simple-wordpress-gallery-plugin/?src=cpd">WP Easy Gallery Pro</a></p>
     <table class="widefat post fixed" cellspacing="0">
     	<thead>
         <tr>
@@ -113,8 +114,8 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
         <li>Ability to edit donation widgets</li>
      </ul>
      <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></strong>
-     <hr />     
-     
-     <p><a href="http://mhlnk.com/8572E215" ><img src="http://media.markethealth.com/bannerServer.php?type=image&ad_id=1865&aid=934801" border="0"></a></p>
+     <hr />
+     <h3>Try also - <a href="http://labs.hahncreativegroup.com/wordpress-plugins/wp-easy-gallery-pro-simple-wordpress-gallery-plugin/?src=cpd">WP Easy Gallery Pro</a></h3>
+     <p>WP Easy Gallery allows you to manage multiple image galleries through an easy to use admin interface.</p>
      </form>
 </div>
