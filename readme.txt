@@ -42,3 +42,27 @@ Be sure to also check out these other plugins: <a href='http://labs.hahncreative
 2. Overview admin panel
 3. Create new donation widget panel
 
+== Changelog ==
+
+**Aug. 18, 2001 - v1.0**
+
+* Initial release.
+
+**Sept. 5, 2011 - v1.5**
+
+* Changed shortcode rendering to fix bug / conflict with excerpt function.
+
+**Sept. 20, 2011 - v1.5.1**
+
+* Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
+
+**Dec. 9, 2011 - v1.5.2**
+
+* Fixed issue preventing custom database prefixes from passing through
+
+**Feb. 14, 2012 - v1.6**
+
+* Code refinements to PHP and Javascript
+
+
+
