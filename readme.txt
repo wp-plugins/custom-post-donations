@@ -14,15 +14,15 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 <a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
 
-* New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations
-* Now supports multiple currencies
+* New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations (pro version)
+* Now supports multiple currencies (pro version)
 * Add customized donation forms to your posts or pages
 * Designate alternate PayPal accounts for donations
 * Add donation form titles
 * Manage multiple donation forms from the easy access admin interface
 * Ability to edit donation widgets
 
-<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Pro Version - only $14.95</a>
+<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
@@ -51,6 +51,8 @@ Be sure to also check out these other plugins: <a href='http://labs.hahncreative
 **Sept. 5, 2011 - v1.5**
 
 * Changed shortcode rendering to fix bug / conflict with excerpt function.
+
+
 
 **Sept. 20, 2011 - v1.5.1**
 
