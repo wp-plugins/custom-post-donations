@@ -6,11 +6,11 @@ Requires at least: 2.6
 Tested up to: 3.3.1
 Stable tag: 1.6
 
-PayPal in WordPress Plugin. eCommerce WordPress plugin. Customizable PayPal Widgets for WordPress. PayPal integration.
+PayPal for WordPress Plugin. eCommerce WordPress plugin. Customizable PayPal Widgets for WordPress. PayPal integration.
 
 == Description ==
 
-This WordPress plugin will allow you to create unique customized PayPal donation widgets to insert into your WordPress posts or pages and accept donations. WP Plugin for creating custom PayPal donation widgets. WordPress ecommerce.
+This WordPress plugin will allow you to create unique customized PayPal donation widgets to insert into your WordPress posts or pages and accept donations. WP Plugin for creating custom PayPal donation widgets. PayPal for WordPress. WordPress ecommerce.
 
 <a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
 
@@ -26,7 +26,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
-Be sure to also check out these other plugins: <a href='http://labs.hahncreativegroup.com/wordpress-plugins/wp-easy-gallery-pro-simple-wordpress-gallery-plugin/' title='images gallery'>WP Easy Gallery Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
+Be sure to also check out these other plugins: <a href='http://labs.hahncreativegroup.com/easy-image-gallery/' title='easy image gallery'>WP Easy Gallery Pro</a>, <a href='http://labs.hahncreativegroup.com/paypal-for-wordpress/' title='PayPal for WordPress'>Custom Post Donations Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
 
 == Installation ==
 
