@@ -26,7 +26,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
-Be sure to also check out these other plugins: <a href='http://labs.hahncreativegroup.com/easy-image-gallery/' title='easy image gallery'>WP Easy Gallery Pro</a>, <a href='http://labs.hahncreativegroup.com/paypal-for-wordpress/' title='PayPal for WordPress'>Custom Post Donations Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
+Be sure to also check out these other plugins: <a href='http://labs.hahncreativegroup.com/easy-image-gallery/' title='easy image gallery'>WP Easy Gallery Pro</a>, <a href='http://labs.hahncreativegroup.com/paypal-for-wordpress/' title='PayPal for WordPress'>Custom Post Donations Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a> and <a href='http://labs.hahncreativegroup.com/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
 
 == Installation ==
 
