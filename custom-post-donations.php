@@ -4,7 +4,7 @@ Plugin Name: Custom Post Donations
 Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: HahnCreativeGroup
-Version: 1.6
+Version: 1.7
 Author URI: http://labs.HahnCreativeGroup.com/
 */
 
@@ -12,7 +12,7 @@ global $cpDonations_table;
 global $cpDonations_plugin_db_version;
 global $wpdb;
 $cpDonations_table = $wpdb->prefix . 'cp_donations';
-$cpDonations_plugin_db_version = '1.2';
+$cpDonations_plugin_db_version = '1.3';
 
 register_activation_hook( __FILE__,  'cpDonations_install' );
 
@@ -25,8 +25,8 @@ function cpDonations_install() {
 			
 	$sql = "CREATE TABLE $cpDonations_table (".
 		"Id INT NOT NULL AUTO_INCREMENT, ".
-		"name VARCHAR( 30 ) NOT NULL, ".
-		"slug VARCHAR( 30 ) NOT NULL, ".
+		"name VARCHAR( 100 ) NOT NULL, ".
+		"slug VARCHAR( 100 ) NOT NULL, ".
 		"description TEXT, ".
 		"donationtype INT NOT NULL, ".
 		"maxitems INT NOT NULL, ".
@@ -93,18 +93,18 @@ function createCPDonationForm($cpDonationName) {
 	}
 	$quantity = "<select name='quantity' id='quantity'>".$options."</select>";
 	
-	$customForm = "<p class='donate_amount'><label for='amount'>Your Donation Amount:</label><br /><input type='text' name='amount' id='amount' value='".$defaultDonation."' /></p>";
+	$customForm = "<p class='donate_amount'><label class='cp-donation' for='amount'>Your Donation Amount:</label><br /><input type='text' name='amount' id='amount' value='".$defaultDonation."' /></p>";
 	
 	switch($donationType) {
 		case 2:
-			$customForm = "<p class='donate_amount'><label for='amount'>Fixed Donation Amount:</label> <span id='fixed-amount'>".$defaultDonation."</span><br />
+			$customForm = "<p class='donate_amount'><label class='cp-donation' class='cp-donation' for='amount'>Fixed Donation Amount:</label> <span id='fixed-amount'>".$defaultDonation."</span><br />
 			<input type='hidden' name='amount' id='amount' value='".$defaultDonation."' />\n
-			<label for='amount2'>Additional Donation:</label><br /><input type='text' name='amount2' id='amount2' /></p>";
+			<label class='cp-donation' for='amount2'>Additional Donation:</label><br /><input type='text' name='amount2' id='amount2' /></p>";
 			break;
 		case 3:
-			$customForm = "<p class='donate_amount'><label for='amount'>Price per item:</label> <span id='fixed-amount'>".$defaultDonation."</span><br />
-			<label for='quantity'>Number of items:</label> ".$quantity."<br />
-			<label for='amount2'>Additional Donation:</label> <input type='text' name='amount2' id='amount2' /><input type='hidden' name='amount' id='amount' value='".$defaultDonation."' /></p>";
+			$customForm = "<p class='donate_amount'><label class='cp-donation' for='amount'>Price per item:</label> <span id='fixed-amount'>".$defaultDonation."</span><br />
+			<label class='cp-donation' for='quantity'>Number of items:</label> ".$quantity."<br />
+			<label class='cp-donation' for='amount2'>Additional Donation:</label> <input type='text' name='amount2' id='amount2' /><input type='hidden' name='amount' id='amount' value='".$defaultDonation."' /></p>";
 			break;
 		default:
 			break;
