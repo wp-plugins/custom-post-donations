@@ -1,7 +1,7 @@
 === Custom Post Donations ===
 Contributors: hahncgdev
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S
-Tags: paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising
+Tags: wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
 Requires at least: 2.6
 Tested up to: 3.3.2
 Stable tag: 1.6
@@ -34,7 +34,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 * Manage multiple donation forms from the easy access admin interface
 * Ability to edit donation widgets
 
-<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
+<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
@@ -47,6 +47,8 @@ Be sure to also check out these other plugins: <a href='http://labs.hahncreative
 1. Set the options in the `CP Donations` Panel
 1. Create new donation widgets in the `Add Donations` Panel
 1. Use unique shortcode generated on `CP Donations` Panel in post or page
+
+Keywords: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>WordPress PayPal Plugin</a>
 
 == Screenshots ==
 
@@ -63,8 +65,6 @@ Be sure to also check out these other plugins: <a href='http://labs.hahncreative
 **Sept. 5, 2011 - v1.5**
 
 * Changed shortcode rendering to fix bug / conflict with excerpt function.
-
-
 
 **Sept. 20, 2011 - v1.5.1**
 
