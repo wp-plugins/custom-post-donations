@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
 Requires at least: 2.6
 Tested up to: 3.3.2
-Stable tag: 1.6
+Stable tag: 1.7
 
 PayPal for WordPress Plugin. eCommerce WordPress plugin. Customizable PayPal Widgets for WordPress. PayPal integration.
 
@@ -77,6 +77,10 @@ Keywords: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' t
 **Feb. 14, 2012 - v1.6**
 
 * Code refinements to PHP and Javascript
+
+**Apr. 22, 2012 - v1.7**
+
+* Code fixes and functionality additions
 
 
 
