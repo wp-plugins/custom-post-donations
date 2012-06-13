@@ -21,7 +21,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 * **Standard Donation** - One editable donation amount field.(<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/standard-donations/'>DEMO</a>)
 * **Fixed + Additional Donation** - One fixed donation amount with an additional editable donation amount field. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/fixed-additional-donation/' title='Fixed + Additional Donation'>DEMO</a>)
 * **Per Item + Additional Donation** - Fixed donation amount per item with an additional editable donation amount field. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-donations/' title='Per Item + Additional Donations'>DEMO</a>)
-* **Per Item + Additional + Fixed Donation** - Same as above, but includes a fixed additional amount. Possibly a shipping charge. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
+* **Per Item + Additional + Fixed Donation** - Same as above, but includes a fixed additional amount. Possibly a shipping charge. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-fixed-donations/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
 * **Campaign Donation** - Donations plus Fields for Name, Address, Occupation and Employer. Meets Federal Election Commission (FEC) requirements. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
 
 = Features =
