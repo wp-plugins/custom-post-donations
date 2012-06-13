@@ -1,7 +1,7 @@
 === Custom Post Donations ===
 Contributors: hahncgdev
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S
-Tags: e-commerce, donaciones, comercio electrónico, donativos, e commerce, wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
+Tags: e-commerce, donaciones, comercio electronico, donativos, e commerce, wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
 Requires at least: 2.6
 Tested up to: 3.3.2
 Stable tag: 1.7
@@ -33,7 +33,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 * Add donation form titles
 * Manage multiple donation forms from the easy access admin interface
 * Ability to edit donation widgets
-* Spanish Translation Added - **Traducción al español añadió** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
+* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
 
 <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
 
