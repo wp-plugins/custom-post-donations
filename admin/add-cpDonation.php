@@ -54,14 +54,14 @@ if(isset($_POST['cpDonation_add']))
 		}
 	}
 ?>
-<div class='wrap'>
+<div class='wrap cp-donations'>
 	<h2>Add Donation - Create custom donation widget</h2>
     <form name="add_cpdonation_form" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>" method="post">
     <input type="hidden" name="cpDonation_add" value="true" />
-    <table class="widefat post fixed" cellspacing="0">
+    <table class="widefat post fixed">
     	<thead>
         <tr>
-        	<th width="250">Field Name</th>
+        	<th class="width-250">Field Name</th>
             <th>Value</th>
             <th>Description</th>
         </tr>
@@ -121,7 +121,7 @@ if(isset($_POST['cpDonation_add']))
 	</table>    
     </form>
     <br />
-    <table class="widefat post fixed" cellspacing="0">
+    <table class="widefat post fixed">
     	<thead>
         <tr>
         	<th>Please Consider Supporting this Plugin by Donating</th>
@@ -134,11 +134,11 @@ if(isset($_POST['cpDonation_add']))
         </tfoot>
         <tbody>        				
             <tr>
-            <td><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></a><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></td>            
+            <td><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YEAT8SE2TXE3S" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal - The safer, easier way to pay online!"></a><img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></td>            
             </tr>
             </tbody>
             </table>     
-    <p><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" border="0" alt="Custom Post Donations Pro" /></a></p>
+    <p><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" alt="Custom Post Donations Pro" /></a></p>
      <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></h2>
      <ul>        
         <li>New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations</li>
