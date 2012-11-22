@@ -14,7 +14,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 **3 Donation plugins in one! (5 with Pro Version)**
 
-<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
+<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a> - (Marked down for Thanksgiving!)
 
 = Donation Widget Types =
 
@@ -35,7 +35,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 * Ability to edit donation widgets
 * Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
 
-<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
+<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a> - (Marked down for Thanksgiving!)
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
