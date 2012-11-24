@@ -81,8 +81,7 @@ function createCPDonationForm($cpDonationName) {
 	// 1) Standard - one editable donation amount field
 	// 2) Fixed + additional - one fixed donation amount with an additional editable donation amount field
 	// 3) Per Item - Fixed donation amount per item witn an additional editable donation amount field
-	*/
-	
+	*/	
 	global $wpdb;
 	global $cpDonations_table;
 	

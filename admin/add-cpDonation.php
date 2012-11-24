@@ -43,13 +43,12 @@ if(isset($_POST['cpDonation_add']))
 			  ?>  
 			  <div class="updated"><p><strong><?php _e('CP Donation Widget Added.' ); ?></strong></p></div>  
 			  <?php
-			  }		
-			
-			else {
-				?>  
-			  <div class="updated"><p><strong><?php _e('Please enter a widget name.' ); ?></strong></p></div>  
-			  <?php
-			}
+			  }
+			  else {
+				  ?>  
+				<div class="updated"><p><strong><?php _e('Please enter a widget name.' ); ?></strong></p></div>  
+				<?php
+			  }
 			}			
 		}
 	}

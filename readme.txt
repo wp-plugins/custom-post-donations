@@ -14,15 +14,15 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 **3 Donation plugins in one! (5 with Pro Version)**
 
-<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a> - (Marked down for Thanksgiving!)
+<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
 
 = Donation Widget Types =
 
 * **Standard Donation** - One editable donation amount field.(<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/standard-donations/'>DEMO</a>)
 * **Fixed + Additional Donation** - One fixed donation amount with an additional editable donation amount field. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/fixed-additional-donation/' title='Fixed + Additional Donation'>DEMO</a>)
 * **Per Item + Additional Donation** - Fixed donation amount per item with an additional editable donation amount field. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-donations/' title='Per Item + Additional Donations'>DEMO</a>)
-* **Per Item + Additional + Fixed Donation** - Same as above, but includes a fixed additional amount. Possibly a shipping charge. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-fixed-donations/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
-* **Campaign Donation** - Donations plus Fields for Name, Address, Occupation and Employer. Meets Federal Election Commission (FEC) requirements. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
+* **Per Item + Additional + Fixed Donation** - Same as above, but includes a fixed additional amount. Possibly a shipping charge. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-fixed-donations/' title='Custom Post Donations Pro – $5.95'>Pro version only</a>)
+* **Campaign Donation** - Donations plus Fields for Name, Address, Occupation and Employer. Meets Federal Election Commission (FEC) requirements. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro version only</a>)
 
 = Features =
 
@@ -33,9 +33,9 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 * Add donation form titles
 * Manage multiple donation forms from the easy access admin interface
 * Ability to edit donation widgets
-* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $3.95'>Pro version only</a>)
+* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro version only</a>)
 
-<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a> - (Marked down for Thanksgiving!)
+<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
