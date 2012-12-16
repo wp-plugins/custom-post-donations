@@ -4,7 +4,7 @@ Plugin Name: Custom Post Donations
 Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: HahnCreativeGroup
-Version: 2.0
+Version: 2.5
 Author URI: http://labs.HahnCreativeGroup.com/
 */
 
@@ -71,7 +71,9 @@ function add_cpDonation()
 }
 
 function add_jquery_cpDonation() {
+	wp_register_script('cp-donations', WP_PLUGIN_URL.'/custom-post-donations/scripts/cp-donations.js', array('jquery'));
 	wp_enqueue_script('jquery');
+	wp_enqueue_script('cp-donations');
 }
 add_action('wp_enqueue_scripts', 'add_jquery_cpDonation');
 
@@ -130,56 +132,10 @@ function createCPDonationForm($cpDonationName) {
 		"<input type='hidden' name='bn' value='PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>".
 		"<p class='submit'><input type='image' src='https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif' border='0' name='submit' alt=''>".
 		"<img alt='' border='0' src='https://www.paypal.com/en_US/i/scr/pixel.gif' width='1' height='1'></p>".
-		"</form></div>";
-		
-		$js = "\n<script type='text/javascript'>".
-			"jQuery(document).ready(function(){".
-					"var defaultDonation = jQuery('#total_amt').html();".
-					"jQuery('#amount').keydown(function(e){if(!((e.keyCode > 47 && e.keyCode < 59) || ( e.keyCode >= 96 && e.keyCode <= 105 ||  e.keyCode == 110 || e.keyCode == 190) || e.keyCode == 8)){e.preventDefault();}".
-												"});".
-				"//Type 1
-				jQuery('#amount').keyup(function(){												   
-				  var donation = jQuery('#amount').val();
-				  if(!isNaN(donation)){
-					  var total = donation;
-					  jQuery('#amount').val(total);
-					  jQuery('#total_amt').html(total);
-				  }else{
-					  jQuery('#total_amt').html(defaultDonation);
-				  }		  
-				  
-			});".
-				
-				"//Type 2
-				jQuery('#amount2').keyup(function(){ 	  
-				  var donation = parseFloat(jQuery('#fixed-amount').html());
-				  var quantity = (parseFloat(jQuery('option:selected').val()) > 1) ? parseFloat(jQuery('option:selected').val()) : 1;
-				  var additionalDonation = parseFloat(jQuery('#amount2').val());
-				  if(!isNaN(additionalDonation)){
-					  var total = additionalDonation+(donation*quantity);
-					  jQuery('#amount').val(total);
-					  jQuery('#total_amt').html(total);
-				  }else{
-					  jQuery('#total_amt').html(defaultDonation);
-				  }	
-			});".
-			"
-			//Type 3
-			jQuery('#quantity').change(function(){ 
-				  jQuery('#amount2').val('');						
-				  var quantity = parseFloat(jQuery(this).val());
-				  if(!isNaN(quantity)){
-					  var total = quantity*parseFloat(jQuery('#fixed-amount').html());
-					  jQuery('#amount').val(total);
-					  jQuery('#total_amt').html(total);
-				  }else{
-					  jQuery('#total_amt').html(defaultDonation);
-				  }	
-			});
-		});\n</script>";
+		"</form></div>";		
 		
 		if(is_single() || is_page()) {
-			return $form.$js;
+			return $form;
 		}
 		else {
 			return "Read article for donation information.";	

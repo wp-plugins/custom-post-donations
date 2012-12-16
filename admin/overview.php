@@ -26,7 +26,7 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
 <div class='wrap cp-donations'>
 	<h2>Custom Post Donation Widgets</h2>
     <p style="float: left;">This is a listing of all CP Donation Forms.</p>
-    <p style="float: right;">Try also - <a href="http://labs.hahncreativegroup.com/wordpress-plugins/wp-easy-gallery-pro-simple-wordpress-gallery-plugin/?src=cpd">WP Easy Gallery Pro</a></p>
+    <p style="float: right; font-weight: bold; font-style: italic;"><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Try Custom Post Donations Pro</a></p>
     <table class="widefat post fixed">
     	<thead>
         <tr>
