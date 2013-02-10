@@ -1,7 +1,7 @@
 === Custom Post Donations ===
 Contributors: hahncgdev
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S
-Tags: admin, plugin, e-commerce, donaciones, comercio electronico, donativos, e commerce, wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
+Tags: admin, plugin, e-commerce, Post, comercio electronico, donativos, e commerce, wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, donate, paypal plugin, donation widget, customizable paypal widget, wp plugin, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
 Requires at least: 2.6
 Tested up to: 3.5
 Stable tag: 2.5
@@ -39,7 +39,7 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 
 For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
-Be sure to also check out these other plugins: <a href='http://wordpress-photo-gallery.com/#gallery' title='Responsive WordPress Photo Gallery'>ReFlex Gallery Pro</a>, <a href='http://wordpress.org/extend/plugins/reflex-gallery/' title='Responsive WordPress Photo Gallery'>ReFlex Gallery</a>, <a href='http://labs.hahncreativegroup.com/easy-image-gallery/' title='easy image gallery'>WP Easy Gallery Pro</a>, <a href='http://labs.hahncreativegroup.com/paypal-for-wordpress/' title='PayPal for WordPress'>Custom Post Donations Pro</a>, <a href='http://labs.hahncreativegroup.com/wp-translate-pro/'>WP Translate Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/' title='Google Translate Plugin for WordPress'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a>, <a href="http://codecanyon.net/item/jquery-email-obfuscate-plugin/721738/?ref=HahnCreativeGroup">Email Obfuscate</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
+Be sure to also check out these other plugins: <a href='http://wordpress-photo-gallery.com/#gallery' title='Responsive WordPress Photo Gallery'>ReFlex Gallery Pro</a>, <a href='http://wordpress.org/extend/plugins/reflex-gallery/' title='Responsive WordPress Photo Gallery'>ReFlex Gallery</a>, <a href='http://labs.hahncreativegroup.com/easy-image-gallery/' title='easy image gallery'>WP Easy Gallery Pro</a>, <a href='http://wordpress-photo-gallery.com/reflex-gallery-premium/'>ReFlex Gallery Premium</a>, <a href='http://labs.hahncreativegroup.com/paypal-for-wordpress/' title='PayPal for WordPress'>Custom Post Donations Pro</a>, <a href='http://labs.hahncreativegroup.com/wp-translate-pro/'>WP Translate Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/' title='Google Translate Plugin for WordPress'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a>, <a href="http://codecanyon.net/item/jquery-email-obfuscate-plugin/721738/?ref=HahnCreativeGroup">Email Obfuscate</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
 
 == Installation ==
 
