@@ -15,41 +15,43 @@ $cpDonationMaxItems = '';
 // add new donation widget
 if(isset($_POST['cpDonation_add']))
 	{
-		if($_POST['cpDonationName'] != "") {
-			if($_POST['cpDonationType'] > 2 && $_POST['cpDonationMaxItems'] == null) {
-			  $cpDonationName = $_POST['cpDonationName'];  
-			  $slug = strtolower(str_replace(" ", "", $_POST['cpDonationName']));
-			  $cpDonationDescription = $_POST['cpDonationDescription'];
-			  $cpDonationAmount = $_POST['cpDonationAmount'];
-			  $cpDonationType = $_POST['cpDonationType'];			  
-			  $cpDonationMaxItems = $_POST['cpDonationMaxItems'];
-				?>  
-			  <div class="updated"><p><strong><?php _e('Please enter a maximum item number.' ); ?></strong></p></div>  
-			  <?php
-			}
-			else {			  
-			  
-			  global $wpdb;
-			  
-			  $cpDonationName = $_POST['cpDonationName'];  
-			  $slug = strtolower(str_replace(" ", "", $_POST['cpDonationName']));
-			  $cpDonationDescription = $_POST['cpDonationDescription'];
-			  $cpDonationAmount = $_POST['cpDonationAmount'];
-			  $cpDonationType = $_POST['cpDonationType'];
-			  $cpDonationMaxItems = ($_POST['cpDonationMaxItems'] != null) ? $_POST['cpDonationMaxItems'] : 1;
-			  $donationAdded = $wpdb->insert( $cpDonations_table, array( 'name' => $cpDonationName, 'slug' => $slug, 'description' => $cpDonationDescription, 'donationtype' => $cpDonationType, 'defaultdonation' => $cpDonationAmount, 'maxitems' => $cpDonationMaxItems ) );
-			  
-			  if($donationAdded) {
-			  ?>  
-			  <div class="updated"><p><strong><?php _e('CP Donation Widget Added.' ); ?></strong></p></div>  
-			  <?php
-			  }
-			  else {
+		if(check_admin_referer('cp_donation','cp_donation')) {
+		  if($_POST['cpDonationName'] != "") {
+			  if($_POST['cpDonationType'] > 2 && $_POST['cpDonationMaxItems'] == null) {
+				$cpDonationName = $_POST['cpDonationName'];  
+				$slug = strtolower(str_replace(" ", "", $_POST['cpDonationName']));
+				$cpDonationDescription = $_POST['cpDonationDescription'];
+				$cpDonationAmount = $_POST['cpDonationAmount'];
+				$cpDonationType = $_POST['cpDonationType'];			  
+				$cpDonationMaxItems = $_POST['cpDonationMaxItems'];
 				  ?>  
-				<div class="updated"><p><strong><?php _e('Please enter a widget name.' ); ?></strong></p></div>  
+				<div class="updated"><p><strong><?php _e('Please enter a maximum item number.' ); ?></strong></p></div>  
 				<?php
 			  }
-			}			
+			  else {			  
+				
+				global $wpdb;
+				
+				$cpDonationName = $_POST['cpDonationName'];  
+				$slug = strtolower(str_replace(" ", "", $_POST['cpDonationName']));
+				$cpDonationDescription = $_POST['cpDonationDescription'];
+				$cpDonationAmount = $_POST['cpDonationAmount'];
+				$cpDonationType = $_POST['cpDonationType'];
+				$cpDonationMaxItems = ($_POST['cpDonationMaxItems'] != null) ? $_POST['cpDonationMaxItems'] : 1;
+				$donationAdded = $wpdb->insert( $cpDonations_table, array( 'name' => $cpDonationName, 'slug' => $slug, 'description' => $cpDonationDescription, 'donationtype' => $cpDonationType, 'defaultdonation' => $cpDonationAmount, 'maxitems' => $cpDonationMaxItems ) );
+				
+				if($donationAdded) {
+				?>  
+				<div class="updated"><p><strong><?php _e('CP Donation Widget Added.' ); ?></strong></p></div>  
+				<?php
+				}
+				else {
+					?>  
+				  <div class="updated"><p><strong><?php _e('Please enter a widget name.' ); ?></strong></p></div>  
+				  <?php
+				}
+			  }			
+		  }
 		}
 	}
 ?>
@@ -57,6 +59,7 @@ if(isset($_POST['cpDonation_add']))
 	<h2>Add Donation - Create custom donation widget</h2>
     <form name="add_cpdonation_form" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>" method="post">
     <input type="hidden" name="cpDonation_add" value="true" />
+    <?php wp_nonce_field('cp_donation','cp_donation'); ?> 
     <table class="widefat post fixed">
     	<thead>
         <tr>

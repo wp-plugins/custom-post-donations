@@ -5,7 +5,10 @@ global $wpdb;
 global $cpDonations_table;
 
 if(isset($_POST['cpDonationBusiness']) && $_POST['cpDonationBusiness'] != "Enter Email Address") {
-	update_option("cpDonations_Business_Name", $_POST['cpDonationBusiness']);	
+	if(check_admin_referer('cp_donation','cp_donation')) {
+		update_option("cpDonations_Business_Name", $_POST['cpDonationBusiness']);
+		update_option("cpDonations_returnUrl", $_POST['cpDonationReturnURL']);
+	}
 }
 else if (get_option("cpDonations_Business_Name") == "") {
 	?>  
@@ -14,11 +17,13 @@ else if (get_option("cpDonations_Business_Name") == "") {
 }
 
 if(isset($_POST['cpDonationId'])) {	
-	$wpdb->query( "DELETE FROM $cpDonations_table WHERE Id = '".$_POST['cpDonationId']."'" );
-		
-	?>  
-	<div class="updated"><p><strong><?php _e('CP Donation Form has been deleted.' ); ?></strong></p></div>  
-	<?php	
+	if(check_admin_referer('cp_donation','cp_donation')) {
+	  $wpdb->query( "DELETE FROM $cpDonations_table WHERE Id = '".$_POST['cpDonationId']."'" );
+		  
+	  ?>  
+	  <div class="updated"><p><strong><?php _e('CP Donation Form has been deleted.' ); ?></strong></p></div>  
+	  <?php
+	}
 }
 
 $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
@@ -53,6 +58,7 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
                 <td class="major-publishing-actions right">
                 <form name="delete_page_<?php echo $widget->Id; ?>" method ="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
                 	<input type="hidden" name="cpDonationId" value="<?php echo $widget->Id; ?>" />
+                    <?php wp_nonce_field('cp_donation','cp_donation'); ?>
                     <input type="submit" name="Submit" class="button-primary" value="Delete Donation Widget" />
                 </form>
                 </td>
@@ -61,24 +67,33 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
         </tbody>
      </table>
      <h2>Custom Post Donation Settings</h2>
-     <form name="cpDonation_Settings" method ="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">      
+     <form name="cpDonation_Settings" method ="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
+     <?php wp_nonce_field('cp_donation','cp_donation'); ?>      
      <table class="widefat post fixed">
     	<thead>
         <tr>
-        	<th>CP Donation Business Name</th>
+        	<th>Attribute</th>
+            <th>Value</th>
             <th>Description</th>            
         </tr>
         </thead>
         <tfoot>
         <tr>
-        	<th>CP Donation Business Name</th>
+        	<th>Attribute</th>
+            <th>Value</th>
             <th>Description</th>
         </tr>
         </tfoot>
         <tbody>        				
-            <tr>
+            <tr>                
+                <td>CP Donation Business Name</td>
                 <td><input type="text" name="cpDonationBusiness" size="50" value="<?php echo get_option("cpDonations_Business_Name"); ?>" /></td>
                 <td>Enter the email address associated with the PayPal account donation will be made to.</td>                
+            </tr>
+            <tr>
+                <td><?php _e('CP Donation Global Return URL', 'custom-post-donations'); ?></td>
+                <td><input type="text" name="cpDonationReturnURL" size="50" value="<?php echo get_option("cpDonations_returnUrl"); ?>" /></td>
+                <td><?php _e('Enter the default thank you page URL associated with all CP Donation forms.', 'custom-post-donations'); ?></td>                
             </tr>
             <tr>
             	<td class="major-publishing-actions"><input type="submit" name="Submit" class="button-primary" value="Save Donation Settings" /></td>

@@ -4,7 +4,7 @@ Plugin Name: Custom Post Donations
 Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: HahnCreativeGroup
-Version: 2.5
+Version: 3.2
 Author URI: http://labs.HahnCreativeGroup.com/
 */
 
@@ -41,6 +41,13 @@ function cpDonations_install() {
   }
   add_option("cpDonations_Business_Name", "Enter Email Address");
 }
+
+function cpDonations_options() {
+	if (!get_option('cpDonations_returnUrl')) {
+		add_option('cpDonations_returnUrl', "");	
+	}	
+}
+add_action('plugins_loaded', 'cpDonations_options');
 
 //Add Admin Styles
 function cpDonation_admin_style() {
@@ -92,6 +99,7 @@ function createCPDonationForm($cpDonationName) {
 	if($cpDonation != null) {
 	
 	$businessName = get_option("cpDonations_Business_Name");
+	$returnURLMarkup = (get_option("cpDonations_returnUrl") == "") ? "" : "<input type='hidden' name='return' value='".get_option("cpDonations_returnUrl")."' />"; 
 	$defaultDonation = $cpDonation->defaultdonation;
 	$donationType = $cpDonation->donationtype;
 	$maxItems = ($cpDonation->maxitems == null) ? 1 : $cpDonation->maxitems;
@@ -123,6 +131,7 @@ function createCPDonationForm($cpDonationName) {
 		$customForm.
 		"<p>Your total amount is : <span id='total_amt'>".$defaultDonation."</span> <small>(Currency: USD)</small></p>".
 		"<input type='hidden' name='item_name' value='".$cpDonation->name."'>".
+		$returnURLMarkup.
 		"<input type='hidden' name='business' value='".$businessName."'>".
 		"<input type='hidden' name='lc' value='US'>".
 		"<input type='hidden' name='no_note' value='1'>".
