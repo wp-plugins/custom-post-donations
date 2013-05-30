@@ -78,17 +78,17 @@ if(isset($_POST['cpDonation_add']))
         <tbody>
         	<tr>
             	<td><strong>Enter Unique Widget Name:</strong></td>
-                <td><input type="text" size="30" name="cpDonationName" value="<?php echo $cpDonationName; ?>" /></td>
+                <td><input type="text" size="30" name="cpDonationName" value="<?php _e($cpDonationName); ?>" /></td>
                 <td>This name is the internal name for the donation widget.<br />Please avoid non-letter characters such as ', ", *, etc.</td>
             </tr>
             <tr>
             	<td><strong>Enter Widget Description:</strong></td>
-                <td><input type="text" size="50" name="cpDonationDescription" value="<?php echo $cpDonationDescription; ?>" /></td>
+                <td><input type="text" size="50" name="cpDonationDescription" value="<?php _e($cpDonationDescription); ?>" /></td>
                 <td>This name is the internal description for the donation widget.</td>
             </tr>
             <tr>
             	<td><strong>Enter Default/per Item Amount:</strong></td>
-                <td><input type="text" size="30" name="cpDonationAmount" value="<?php echo $cpDonationAmount; ?>" /></td>
+                <td><input type="text" size="30" name="cpDonationAmount" value="<?php _e($cpDonationAmount); ?>" /></td>
                 <td>This is the default donation or per item price.</td>
             </tr>
             <tr>
@@ -111,7 +111,7 @@ if(isset($_POST['cpDonation_add']))
             </tr>
             <tr>
             	<td><strong>Enter Maximum Number of Items:</strong></td>
-                <td><input type="text" size="30" name="cpDonationMaxItems" value="<?php echo $cpDonationMaxItems; ?>" /></td>
+                <td><input type="text" size="30" name="cpDonationMaxItems" value="<?php _e($cpDonationMaxItems); ?>" /></td>
                 <td>This is will set the maximum number of items that can be selected in a per item widget.</td>
             </tr>            
             <tr>
