@@ -33,7 +33,8 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 * Add donation form titles
 * Manage multiple donation forms from the easy access admin interface
 * Ability to edit donation widgets
-* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro version only</a>)
+* German Translation Added - **Deutsch &Uuml;bersetzung hinzugef&uuml;gt** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
+* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
 
 <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
 
