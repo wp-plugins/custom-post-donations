@@ -8,6 +8,7 @@ if(isset($_POST['cpDonationBusiness']) && $_POST['cpDonationBusiness'] != "Enter
 	if(check_admin_referer('cp_donation','cp_donation')) {
 		update_option("cpDonations_Business_Name", $_POST['cpDonationBusiness']);
 		update_option("cpDonations_returnUrl", $_POST['cpDonationReturnURL']);
+		update_option("cpDonations_buttonStyle", $_POST['cpDonationButtonStyle']);
 		?>  
 	  <div class="updated"><p><strong><?php _e('Options have been updated.' ); ?></strong></p></div>  
 	  <?php
@@ -28,7 +29,7 @@ if(isset($_POST['cpDonationId'])) {
 	  <?php
 	}
 }
-
+$cpDonationButtonStyle = get_option("cpDonations_buttonStyle");
 $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
 ?>
 <div class='wrap cp-donations'>
@@ -98,9 +99,19 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
                 <td><input type="text" name="cpDonationReturnURL" size="50" value="<?php _e(get_option("cpDonations_returnUrl")); ?>" /></td>
                 <td><?php _e('Enter the default thank you page URL associated with all CP Donation forms.', 'custom-post-donations'); ?></td>                
             </tr>
+			<tr>
+                <td><?php _e('CP Donation Global Button Type', 'custom-post-donations'); ?></td>
+                <td><ul>
+					<li><input type="radio" name="cpDonationButtonStyle" value="default" <?php if ($cpDonationButtonStyle == "default") { echo "checked"; } ?>> <img src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="PayPal - The safer, easier way to pay online!"></li>
+					<li><input type="radio" name="cpDonationButtonStyle" value="small" <?php if ($cpDonationButtonStyle == "small") { echo "checked"; } ?>> <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" alt="PayPal - The safer, easier way to pay online!"></li>
+					<li><input type="radio" name="cpDonationButtonStyle" value="withCC" <?php if ($cpDonationButtonStyle == "withCC") { echo "checked"; } ?>> <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal - The safer, easier way to pay online!"></td></li>
+					</ul>
+                <td><?php _e('Select which button will show for all CP Donation forms.', 'custom-post-donations'); ?></td>                
+            </tr>
             <tr>
             	<td class="major-publishing-actions"><input type="submit" name="Submit" class="button-primary" value="Save Donation Settings" /></td>
                 <td></td>
+				<td></td>
             </tr>			
         </tbody>
      </table>

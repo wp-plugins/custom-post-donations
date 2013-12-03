@@ -4,7 +4,7 @@ Plugin Name: Custom Post Donations
 Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: HahnCreativeGroup
-Version: 3.3
+Version: 3.5
 Author URI: http://labs.HahnCreativeGroup.com/
 */
 
@@ -45,7 +45,10 @@ function cpDonations_install() {
 function cpDonations_options() {
 	if (!get_option('cpDonations_returnUrl')) {
 		add_option('cpDonations_returnUrl', "");	
-	}	
+	}
+	if (!get_option('cpDonations_buttonStyle')) {
+		add_option('cpDonations_buttonStyle', "default");	
+	}
 }
 add_action('plugins_loaded', 'cpDonations_options');
 
@@ -98,6 +101,20 @@ function createCPDonationForm($cpDonationName) {
 	
 	if($cpDonation != null) {
 	
+	$buttonStyle = "https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif";
+	
+	switch(get_option('cpDonations_buttonStyle')) {
+		case "small":
+			$buttonStyle = "https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif";
+			break;
+		case "withCC":
+			$buttonStyle = "https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif";
+			break;
+		default:
+			$buttonStyle = "https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif";
+			break;
+	}
+	
 	$businessName = get_option("cpDonations_Business_Name");
 	$returnURLMarkup = (get_option("cpDonations_returnUrl") == "") ? "" : "<input type='hidden' name='return' value='".get_option("cpDonations_returnUrl")."' />"; 
 	$defaultDonation = $cpDonation->defaultdonation;
@@ -139,7 +156,7 @@ function createCPDonationForm($cpDonationName) {
 		"<input type='hidden' name='rm' value='1'>".
 		"<input type='hidden' name='currency_code' value='USD'>".
 		"<input type='hidden' name='bn' value='PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>".
-		"<p class='submit'><input type='image' src='https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif' border='0' name='submit' alt=''>".
+		"<p class='submit'><input type='image' src='".$buttonStyle."' border='0' name='submit' alt=''>".
 		"<img alt='' border='0' src='https://www.paypal.com/en_US/i/scr/pixel.gif' width='1' height='1'></p>".
 		"</form></div>";		
 		
