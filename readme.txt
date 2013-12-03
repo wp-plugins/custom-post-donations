@@ -110,7 +110,7 @@ Keywords: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' t
 * Additional security enhancements
 * Added option update notification
 
-**Dec. 3, 2013 - v3.5
+**Dec. 3, 2013 - v3.5**
 
 * Added additional 'Donate' button style options
 
