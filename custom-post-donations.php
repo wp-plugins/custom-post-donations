@@ -143,7 +143,7 @@ function createCPDonationForm($cpDonationName) {
 			break;
 	}
 	
-	$form = "<div><form id='cpDonation' action='https://www.paypal.com/cgi-bin/webscr' method='post'>".
+	$form = "<!-- Custom Post Donations 3.5 - http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/ --><div><form id='cpDonation' action='https://www.paypal.com/cgi-bin/webscr' method='post'>".
 		"<input type='hidden' id='cmd' name='cmd' value='_donations'>".
 		$customForm.
 		"<p>Your total amount is : <span id='total_amt'>".$defaultDonation."</span> <small>(Currency: USD)</small></p>".
@@ -158,7 +158,7 @@ function createCPDonationForm($cpDonationName) {
 		"<input type='hidden' name='bn' value='PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>".
 		"<p class='submit'><input type='image' src='".$buttonStyle."' border='0' name='submit' alt=''>".
 		"<img alt='' border='0' src='https://www.paypal.com/en_US/i/scr/pixel.gif' width='1' height='1'></p>".
-		"</form></div>";		
+		"</form></div><!-- Custom Post Donations 3.5 -->";		
 		
 		if(is_single() || is_page()) {
 			return $form;

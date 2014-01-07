@@ -1,4 +1,7 @@
-// JavaScript Document
+//
+// Plugin Name: Custom Post Donations
+// Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
+//
 jQuery(document).ready(function(){
 	var defaultDonation = jQuery('#total_amt').html();
 	jQuery('#amount').keydown(function(e){if(!((e.keyCode > 47 && e.keyCode < 59) || ( e.keyCode >= 96 && e.keyCode <= 105 ||  e.keyCode == 110 || e.keyCode == 190) || e.keyCode == 8)){e.preventDefault();}});
