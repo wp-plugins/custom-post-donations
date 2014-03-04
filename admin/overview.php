@@ -57,7 +57,7 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
         	<?php foreach($cpDonationWidgets as $widget) { ?>				
             <tr>
             	<td><?php _e($widget->name); ?></td>
-                <td><input type="text" size="40" value="[cpDonation id='<?php _e($widget->slug); ?>']" /></td>
+                <td><input type="text" size="40" value="[cpDonation key='<?php _e($widget->Id); ?>']" /></td>
                 <td><?php _e($widget->description); ?></td>
                 <td class="major-publishing-actions right">
                 <form name="delete_page_<?php _e($widget->Id); ?>" method ="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">

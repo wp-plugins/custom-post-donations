@@ -4,7 +4,7 @@ Plugin Name: Custom Post Donations
 Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: HahnCreativeGroup
-Version: 3.5
+Version: 3.5.1
 Author URI: http://labs.HahnCreativeGroup.com/
 */
 
@@ -87,7 +87,7 @@ function add_jquery_cpDonation() {
 }
 add_action('wp_enqueue_scripts', 'add_jquery_cpDonation');
 
-function createCPDonationForm($cpDonationName) {
+function createCPDonationForm($cpDonationName, $id) {
 	/*
 	// Donation types:
 	// 1) Standard - one editable donation amount field
@@ -97,7 +97,12 @@ function createCPDonationForm($cpDonationName) {
 	global $wpdb;
 	global $cpDonations_table;
 	
-	$cpDonation = $wpdb->get_row( "SELECT * FROM $cpDonations_table WHERE slug = '$cpDonationName'" );
+	if ($id != "-1") {
+		$cpDonation = $wpdb->get_row( "SELECT * FROM $cpDonations_table WHERE Id = '$id'" );
+	}
+	else {
+		$cpDonation = $wpdb->get_row( "SELECT * FROM $cpDonations_table WHERE slug = '$cpDonationName'" );
+	}
 	
 	if($cpDonation != null) {
 	
@@ -143,7 +148,7 @@ function createCPDonationForm($cpDonationName) {
 			break;
 	}
 	
-	$form = "<!-- Custom Post Donations 3.5 - http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/ --><div><form id='cpDonation' action='https://www.paypal.com/cgi-bin/webscr' method='post'>".
+	$form = "<!-- Custom Post Donations 3.5.1 - http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/ --><div><form id='cpDonation' action='https://www.paypal.com/cgi-bin/webscr' method='post'>".
 		"<input type='hidden' id='cmd' name='cmd' value='_donations'>".
 		$customForm.
 		"<p>Your total amount is : <span id='total_amt'>".$defaultDonation."</span> <small>(Currency: USD)</small></p>".
@@ -158,7 +163,7 @@ function createCPDonationForm($cpDonationName) {
 		"<input type='hidden' name='bn' value='PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>".
 		"<p class='submit'><input type='image' src='".$buttonStyle."' border='0' name='submit' alt=''>".
 		"<img alt='' border='0' src='https://www.paypal.com/en_US/i/scr/pixel.gif' width='1' height='1'></p>".
-		"</form></div><!-- Custom Post Donations 3.5 -->";		
+		"</form></div><!-- Custom Post Donations 3.5.1 -->";		
 		
 		if(is_single() || is_page()) {
 			return $form;
@@ -173,7 +178,8 @@ function createCPDonationForm($cpDonationName) {
 }
 
 function cpDonation_Handler($atts) {
-	return createCPDonationForm($atts['id']);
+	$atts = shortcode_atts( array( 'id' => '-1', 'key' => '-1'), $atts );
+	return createCPDonationForm($atts['id'], $atts['key']);
 }
 add_shortcode('cpDonation', 'cpDonation_Handler');
 
