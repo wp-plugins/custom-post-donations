@@ -4,7 +4,7 @@ Plugin Name: Custom Post Donations
 Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: HahnCreativeGroup
-Version: 3.5.1
+Version: 3.6
 Author URI: http://labs.HahnCreativeGroup.com/
 */
 
@@ -81,7 +81,7 @@ function add_cpDonation()
 }
 
 function add_jquery_cpDonation() {
-	wp_register_script('cp-donations', WP_PLUGIN_URL.'/custom-post-donations/scripts/cp-donations.js', array('jquery'));
+	wp_register_script('cp-donations', WP_PLUGIN_URL.'/custom-post-donations/scripts/jquery.cpDonations.js', array('jquery'));
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('cp-donations');
 }
@@ -129,29 +129,29 @@ function createCPDonationForm($cpDonationName, $id) {
 	for($i=1;$i<=$maxItems;$i++) {
 		$options .= "<option>".$i."</option>";	
 	}
-	$quantity = "<select name='quantity' id='quantity'>".$options."</select>";
+	$quantity = "<select name='quantity' class='quantity'>".$options."</select>";
 	
-	$customForm = "<p class='donate_amount'><label class='cp-donation' for='amount'>Your Donation Amount:</label><br /><input type='text' name='amount' id='amount' value='".$defaultDonation."' /></p>";
+	$customForm = "<p class='donate_amount'><label class='cp-donation' for='amount'>Your Donation Amount:</label><br /><input type='text' name='amount' class='amount' value='".$defaultDonation."' /></p>";
 	
 	switch($donationType) {
 		case 2:
-			$customForm = "<p class='donate_amount'><label class='cp-donation' class='cp-donation' for='amount'>Fixed Donation Amount:</label> <span id='fixed-amount'>".$defaultDonation."</span><br />
-			<input type='hidden' name='amount' id='amount' value='".$defaultDonation."' />\n
-			<label class='cp-donation' for='amount2'>Additional Donation:</label><br /><input type='text' name='amount2' id='amount2' /></p>";
+			$customForm = "<p class='donate_amount'><label class='cp-donation' class='cp-donation' for='amount'>Fixed Donation Amount:</label> <span class='fixed-amount'>".$defaultDonation."</span><br />
+			<input type='hidden' name='amount' class='amount' value='".$defaultDonation."' />\n
+			<label class='cp-donation' for='amount2'>Additional Donation:</label><br /><input type='text' name='amount2' class='amount2' /></p>";
 			break;
 		case 3:
-			$customForm = "<p class='donate_amount'><label class='cp-donation' for='amount'>Price per item:</label> <span id='fixed-amount'>".$defaultDonation."</span><br />
+			$customForm = "<p class='donate_amount'><label class='cp-donation' for='amount'>Price per item:</label> <span class='fixed-amount'>".$defaultDonation."</span><br />
 			<label class='cp-donation' for='quantity'>Number of items:</label> ".$quantity."<br />
-			<label class='cp-donation' for='amount2'>Additional Donation:</label> <input type='text' name='amount2' id='amount2' /><input type='hidden' name='amount' id='amount' value='".$defaultDonation."' /></p>";
+			<label class='cp-donation' for='amount2'>Additional Donation:</label> <input type='text' name='amount2' class='amount2' /><input type='hidden' name='amount' class='amount' value='".$defaultDonation."' /></p>";
 			break;
 		default:
 			break;
 	}
 	
-	$form = "<!-- Custom Post Donations 3.5.1 - http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/ --><div><form id='cpDonation' action='https://www.paypal.com/cgi-bin/webscr' method='post'>".
-		"<input type='hidden' id='cmd' name='cmd' value='_donations'>".
+	$form = "<!-- Custom Post Donations 3.6 - http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/ --><div><form class='cpDonation' action='https://www.paypal.com/cgi-bin/webscr' method='post'>".
+		"<input type='hidden' class='cmd' name='cmd' value='_donations'>".
 		$customForm.
-		"<p>Your total amount is : <span id='total_amt'>".$defaultDonation."</span> <small>(Currency: USD)</small></p>".
+		"<p>Your total amount is : <span class='total_amt'>".$defaultDonation."</span> <small>(Currency: USD)</small></p>".
 		"<input type='hidden' name='item_name' value='".$cpDonation->name."'>".
 		$returnURLMarkup.
 		"<input type='hidden' name='business' value='".$businessName."'>".
@@ -161,9 +161,9 @@ function createCPDonationForm($cpDonationName, $id) {
 		"<input type='hidden' name='rm' value='1'>".
 		"<input type='hidden' name='currency_code' value='USD'>".
 		"<input type='hidden' name='bn' value='PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>".
-		"<p class='submit'><input type='image' src='".$buttonStyle."' border='0' name='submit' alt=''>".
+		"<p class='submit'><input type='image' src='".$buttonStyle."' border='0' name='submit' class='paypalSubmit' alt=''>".
 		"<img alt='' border='0' src='https://www.paypal.com/en_US/i/scr/pixel.gif' width='1' height='1'></p>".
-		"</form></div><!-- Custom Post Donations 3.5.1 -->";		
+		"</form></div><!-- Custom Post Donations 3.6 -->";		
 		
 		if(is_single() || is_page()) {
 			return $form;
