@@ -49,6 +49,9 @@ function cpDonations_options() {
 	if (!get_option('cpDonations_buttonStyle')) {
 		add_option('cpDonations_buttonStyle', "default");	
 	}
+	if (!get_option('cpDonations_restrictToPagePost')) {
+		add_option('cpDonations_restrictToPagePost', "true");	
+	}
 }
 add_action('plugins_loaded', 'cpDonations_options');
 

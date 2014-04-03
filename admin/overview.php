@@ -9,6 +9,7 @@ if(isset($_POST['cpDonationBusiness']) && $_POST['cpDonationBusiness'] != "Enter
 		update_option("cpDonations_Business_Name", $_POST['cpDonationBusiness']);
 		update_option("cpDonations_returnUrl", $_POST['cpDonationReturnURL']);
 		update_option("cpDonations_buttonStyle", $_POST['cpDonationButtonStyle']);
+		update_option("cpDonations_restrictToPagePost", $_POST['cpDonationsRestrictToPagePost']);
 		?>  
 	  <div class="updated"><p><strong><?php _e('Options have been updated.' ); ?></strong></p></div>  
 	  <?php
