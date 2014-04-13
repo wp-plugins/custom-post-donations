@@ -167,12 +167,16 @@ function createCPDonationForm($cpDonationName, $id) {
 		"<p class='submit'><input type='image' src='".$buttonStyle."' border='0' name='submit' class='paypalSubmit' alt=''>".
 		"<img alt='' border='0' src='https://www.paypal.com/en_US/i/scr/pixel.gif' width='1' height='1'></p>".
 		"</form></div><!-- Custom Post Donations 3.6 -->";		
-		
-		if(is_single() || is_page()) {
+						
+		$restrict = get_option('cpDonations_restrictToPagePost');
+		if(($restrict == "true") && (is_single() || is_page())) {
+			return $form;	
+		}
+		else if($restrict == "false") {
 			return $form;
 		}
 		else {
-			return "Read article for donation information.";	
+			return "Read article for donation information.";
 		}
 	}
 	else {
