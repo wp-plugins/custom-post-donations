@@ -6,10 +6,11 @@ global $cpDonations_table;
 
 if(isset($_POST['cpDonationBusiness']) && $_POST['cpDonationBusiness'] != "Enter Email Address") {
 	if(check_admin_referer('cp_donation','cp_donation')) {
+		$restrict = isset($_POST['cpDonationsRestrictToPagePost']) ? 'true' : 'false';
 		update_option("cpDonations_Business_Name", $_POST['cpDonationBusiness']);
 		update_option("cpDonations_returnUrl", $_POST['cpDonationReturnURL']);
 		update_option("cpDonations_buttonStyle", $_POST['cpDonationButtonStyle']);
-		update_option("cpDonations_restrictToPagePost", $_POST['cpDonationsRestrictToPagePost']);
+		update_option("cpDonations_restrictToPagePost", $restrict);
 		?>  
 	  <div class="updated"><p><strong><?php _e('Options have been updated.' ); ?></strong></p></div>  
 	  <?php
@@ -99,6 +100,11 @@ $cpDonationWidgets = $wpdb->get_results( "SELECT * FROM $cpDonations_table" );
                 <td><?php _e('CP Donation Global Return URL', 'custom-post-donations'); ?></td>
                 <td><input type="text" name="cpDonationReturnURL" size="50" value="<?php _e(get_option("cpDonations_returnUrl")); ?>" /></td>
                 <td><?php _e('Enter the default thank you page URL associated with all CP Donation forms.', 'custom-post-donations'); ?></td>                
+            </tr>
+			<tr>
+                <td><?php _e('Restrict to Pages/Posts', 'custom-post-donations-pro'); ?></td>
+                <td><input type="checkbox" name="cpDonationsRestrictToPagePost" value="true" <?php if (get_option("cpDonations_restrictToPagePost") == "true") { echo "checked"; } ?>/></td>
+                <td><?php _e('Uncheck if you would like donation forms to show on archive pages as well as pages and posts.', 'custom-post-donations-pro'); ?></td>                
             </tr>
 			<tr>
                 <td><?php _e('CP Donation Global Button Type', 'custom-post-donations'); ?></td>
