@@ -10,13 +10,13 @@ PayPal for WordPress Plugin. eCommerce WordPress plugin. Customizable PayPal Wid
 
 == Description ==
 
-This WordPress plugin will allow you to create unique customized PayPal donation widgets to insert into your WordPress posts or pages and accept donations. WP Plugin for creating custom PayPal donation widgets. PayPal for WordPress. WordPress ecommerce.
+This WordPress plugin will allow you to create unique customized PayPal donation forms to insert into your WordPress posts or pages and accept donations. WP Plugin for creating custom PayPal donation widgets. PayPal for WordPress. WordPress ecommerce.
 
-**3 Donation plugins in one! (5 with Pro Version)**
+**3 PayPal Donation plugins in one! (5 with Pro Version)**
 
 <a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
 
-= Donation Widget Types =
+= PayPal Donation Form Types =
 
 * **Standard Donation** - One editable donation amount field.(<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/standard-donations/'>DEMO</a>)
 * **Fixed + Additional Donation** - One fixed donation amount with an additional editable donation amount field. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/fixed-additional-donation/' title='Fixed + Additional Donation'>DEMO</a>)
