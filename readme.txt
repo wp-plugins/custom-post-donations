@@ -3,14 +3,16 @@ Contributors: hahncgdev
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S
 Tags: plugin, e-commerce, Post, e commerce, wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, paypal plugin, donation widget, customizable paypal widget, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
 Requires at least: 2.6
-Tested up to: 3.9
+Tested up to: 3.9.1
 Stable tag: 3.7.1
 
-PayPal for WordPress Plugin. eCommerce WordPress plugin. Customizable PayPal Widgets for WordPress. PayPal integration.
+WordPress PayPal Plugin. Create custom PayPal donation forms in your pages or posts. WordPress Plugin for PayPal integration.
 
 == Description ==
 
-This WordPress plugin will allow you to create unique customized PayPal donation forms to insert into your WordPress posts or pages and accept donations. WP Plugin for creating custom PayPal donation widgets. PayPal for WordPress. WordPress ecommerce.
+### WordPress PayPal Plugin
+
+This **WordPress PayPal plugin** will allow you to create unique customized PayPal donation forms to insert into your WordPress posts or pages and accept donations. WP Plugin for creating custom PayPal donation widgets. PayPal for WordPress. WordPress ecommerce.
 
 **3 PayPal Donation plugins in one! (5 with Pro Version)**
 
@@ -24,21 +26,21 @@ This WordPress plugin will allow you to create unique customized PayPal donation
 * **Per Item + Additional + Fixed Donation** - Same as above, but includes a fixed additional amount. Possibly a shipping charge. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-fixed-donations/' title='Custom Post Donations Pro – $5.95'>Pro version only</a>)
 * **Campaign Donation** - Donations plus Fields for Name, Address, Occupation and Employer. Meets Federal Election Commission (FEC) requirements. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro version only</a>)
 
-= Features =
+= PayPal Plugin Features =
 
-* New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations (Pro Version)
-* Now supports multiple currencies (Pro Version)
-* Add customized donation forms to your posts or pages
-* Designate alternate PayPal accounts for donations
+* New 'Campaign' donation type captures name, address, employer and occupation for PayPal. This follows Federal Election Commission (FEC) regulations (Pro Version).
+* Now supports multiple currencies. (Pro Version)
+* Add customized PayPal donation forms to your posts or pages.
+* Designate alternate PayPal accounts for donations.
 * Add donation form titles
-* Manage multiple donation forms from the easy access admin interface
-* Ability to edit donation widgets
+* Manage multiple donation forms from the easy access admin interface.
+* Ability to edit donation widgets.
 * German Translation Added - **Deutsch &Uuml;bersetzung hinzugef&uuml;gt** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
 * Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
 
 <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
 
-For more information about this ecommerce plugin: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
+For more information about this *WordPress PayPal Plugin*: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 
 Be sure to also check out these other plugins: <a href='http://wordpress-photo-gallery.com/#gallery' title='Responsive WordPress Photo Gallery'>ReFlex Gallery Pro</a>, <a href='http://wordpress.org/extend/plugins/reflex-gallery/' title='Responsive WordPress Photo Gallery'>ReFlex Gallery</a>, <a href='http://labs.hahncreativegroup.com/easy-image-gallery/' title='easy image gallery'>WP Easy Gallery Pro</a>, <a href='http://wordpress-photo-gallery.com/reflex-gallery-premium/'>ReFlex Gallery Premium</a>, <a href='http://labs.hahncreativegroup.com/paypal-for-wordpress/' title='PayPal for WordPress'>Custom Post Donations Pro</a>, <a href='http://labs.hahncreativegroup.com/wp-translate-pro/'>WP Translate Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/' title='Google Translate Plugin for WordPress'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a>, <a href="http://codecanyon.net/item/jquery-email-obfuscate-plugin/721738/?ref=HahnCreativeGroup">Email Obfuscate</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
 
