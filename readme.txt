@@ -40,7 +40,7 @@ This **WordPress PayPal plugin** will allow you to create unique customized PayP
 
 <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
 
-For more information about this *WordPress PayPal Plugin*: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>
+For more information about this *WordPress PayPal Plugin*: http://labs.hahncreativegroup.com/wordpress-paypal-plugin/
 
 Be sure to also check out these other plugins: <a href='http://wordpress-photo-gallery.com/#gallery' title='Responsive WordPress Photo Gallery'>ReFlex Gallery Pro</a>, <a href='http://wordpress.org/extend/plugins/reflex-gallery/' title='Responsive WordPress Photo Gallery'>ReFlex Gallery</a>, <a href='http://labs.hahncreativegroup.com/easy-image-gallery/' title='easy image gallery'>WP Easy Gallery Pro</a>, <a href='http://wordpress-photo-gallery.com/reflex-gallery-premium/'>ReFlex Gallery Premium</a>, <a href='http://labs.hahncreativegroup.com/paypal-for-wordpress/' title='PayPal for WordPress'>Custom Post Donations Pro</a>, <a href='http://labs.hahncreativegroup.com/wp-translate-pro/'>WP Translate Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/' title='Google Translate Plugin for WordPress'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a>, <a href="http://codecanyon.net/item/jquery-email-obfuscate-plugin/721738/?ref=HahnCreativeGroup">Email Obfuscate</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
 
