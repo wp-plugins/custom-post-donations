@@ -16,7 +16,7 @@ This **WordPress PayPal plugin** will allow you to create unique customized PayP
 
 **3 PayPal Donation plugins in one! (5 with Pro Version)**
 
-<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/'>Upgrade to Pro Version</a>
+<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Upgrade to Pro Version</a>
 
 = PayPal Donation Form Types =
 
@@ -35,12 +35,12 @@ This **WordPress PayPal plugin** will allow you to create unique customized PayP
 * Add donation form titles
 * Manage multiple donation forms from the easy access admin interface.
 * Ability to edit donation widgets.
-* German Translation Added - **Deutsch &Uuml;bersetzung hinzugef&uuml;gt** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
-* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
+* German Translation Added - **Deutsch &Uuml;bersetzung hinzugef&uuml;gt** (<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
+* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
 
 <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
 
-For more information about this *WordPress PayPal Plugin*: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
+For more information about this *WordPress PayPal Plugin*: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>
 
 Be sure to also check out these other plugins: <a href='http://wordpress-photo-gallery.com/#gallery' title='Responsive WordPress Photo Gallery'>ReFlex Gallery Pro</a>, <a href='http://wordpress.org/extend/plugins/reflex-gallery/' title='Responsive WordPress Photo Gallery'>ReFlex Gallery</a>, <a href='http://labs.hahncreativegroup.com/easy-image-gallery/' title='easy image gallery'>WP Easy Gallery Pro</a>, <a href='http://wordpress-photo-gallery.com/reflex-gallery-premium/'>ReFlex Gallery Premium</a>, <a href='http://labs.hahncreativegroup.com/paypal-for-wordpress/' title='PayPal for WordPress'>Custom Post Donations Pro</a>, <a href='http://labs.hahncreativegroup.com/wp-translate-pro/'>WP Translate Pro</a>, <a href='http://wordpress.org/extend/plugins/wp-translate/' title='Google Translate Plugin for WordPress'>WP Translate</a>, <a href='http://wordpress.org/extend/plugins/prosperity/'>Prosperity</a>, <a href="http://codecanyon.net/item/jquery-email-obfuscate-plugin/721738/?ref=HahnCreativeGroup">Email Obfuscate</a> and <a href='http://wordpress.org/extend/plugins/wp-easy-gallery/' title='image gallery for WordPress'>WP Easy Gallery</a>.
 
