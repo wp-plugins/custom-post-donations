@@ -140,8 +140,8 @@ if(isset($_POST['cpDonation_add']))
             </tr>
             </tbody>
             </table>     
-    <p><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" alt="Custom Post Donations Pro" /></a></p>
-     <h2><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></h2>
+    <p><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" alt="Custom Post Donations Pro" /></a></p>
+     <h2><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank">Upgrade to the Pro Version</a></h2>
      <ul>        
         <li>New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations</li>
         <li>Now supports multiple currencies</li>
@@ -151,9 +151,8 @@ if(isset($_POST['cpDonation_add']))
         <li>Manage multiple donation forms from the easy access admin interface</li>
         <li>Ability to edit donation widgets</li>
      </ul>
-     <strong><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Upgrade to the Pro Version</a></strong>
-     <br />
+     <strong><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank">Upgrade to the Pro Version</a></strong>
      <hr />
-     <h3>Try also - <a href="http://labs.hahncreativegroup.com/wordpress-plugins/wp-easy-gallery-pro-simple-wordpress-gallery-plugin/?src=cpd">WP Easy Gallery Pro</a></h3>
-     <p>WP Easy Gallery allows you to manage multiple image galleries through an easy to use admin interface.</p>
+     <h3>Try also - <a href="http://labs.hahncreativegroup.com/wordpress-gallery-plugin/?src=cpd" target="_blank">WP Easy Gallery Pro</a></h3>
+     <p>WP Easy Gallery allows you to manage multiple image galleries through an easy to use admin interface.</p> 
 </div>
