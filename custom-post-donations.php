@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Custom Post Donations
-Plugin URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
+Plugin URI: http://labs.hahncreativegroup.com/wordpress-paypal-plugin/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: HahnCreativeGroup
 Version: 3.8
-Author URI: http://labs.HahnCreativeGroup.com/
+Author URI: http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/
 */
 
 global $cpDonations_table;
@@ -151,7 +151,7 @@ function createCPDonationForm($cpDonationName, $id) {
 			break;
 	}
 	
-	$form = "<!-- Custom Post Donations 3.6 - http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/ --><div><form class='cpDonation' action='https://www.paypal.com/cgi-bin/webscr' method='post'>".
+	$form = "<!-- Custom Post Donations 3.8 - http://labs.hahncreativegroup.com/wordpress-paypal-plugin/ --><div><form class='cpDonation' action='https://www.paypal.com/cgi-bin/webscr' method='post'>".
 		"<input type='hidden' class='cmd' name='cmd' value='_donations'>".
 		$customForm.
 		"<p>Your total amount is : <span class='total_amt'>".$defaultDonation."</span> <small>(Currency: USD)</small></p>".
@@ -166,7 +166,7 @@ function createCPDonationForm($cpDonationName, $id) {
 		"<input type='hidden' name='bn' value='PP-DonationsBF:btn_donateCC_LG.gif:NonHosted'>".
 		"<p class='submit'><input type='image' src='".$buttonStyle."' border='0' name='submit' class='paypalSubmit' alt=''>".
 		"<img alt='' border='0' src='https://www.paypal.com/en_US/i/scr/pixel.gif' width='1' height='1'></p>".
-		"</form></div><!-- Custom Post Donations 3.6 -->";		
+		"</form></div><!-- Custom Post Donations 3.8 -->";		
 						
 		$restrict = get_option('cpDonations_restrictToPagePost');
 		if(($restrict == "true") && (is_single() || is_page())) {
@@ -200,4 +200,18 @@ function add_cpDonations_plugin_links($links, $file) {
 	
 //Add the extra links on the plugin page
 add_filter('plugin_row_meta', 'add_cpDonations_plugin_links', 10, 2);
+
+add_action( 'init', 'cpd_code_button' );
+function cpd_code_button() {
+    add_filter( "mce_external_plugins", "cpd_code_add_button" );
+    add_filter( 'mce_buttons', 'cpd_code_register_button' );
+}
+function cpd_code_add_button( $plugin_array ) {
+    $plugin_array['cpdbutton'] = $dir = plugins_url( 'scripts/shortcode.js', __FILE__ );
+    return $plugin_array;
+}
+function cpd_code_register_button( $buttons ) {
+    array_push( $buttons, 'cpdselector' );
+    return $buttons;
+}
 ?>
