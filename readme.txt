@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: plugin, e-commerce, Post, e commerce, wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, paypal plugin, donation widget, customizable paypal widget, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
 Requires at least: 2.6
 Tested up to: 3.9.1
-Stable tag: 3.8
+Stable tag: 3.9
 
 WordPress PayPal Plugin. Create custom PayPal donation forms in your pages or posts. WordPress Plugin for PayPal integration.
 
@@ -62,77 +62,76 @@ Keywords: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' t
 
 == Changelog ==
 
-**Aug. 18, 2011 - v1.0**
+**June 27, 2014 - v3.8**
 
-* Initial release.
+* Minor bug fixes
 
-**Sept. 5, 2011 - v1.5**
+**May 21, 2014 - v3.7.1**
 
-* Changed shortcode rendering to fix bug / conflict with excerpt function.
+* Fixed 404 error with admin stylesheet
 
-**Sept. 20, 2011 - v1.5.1**
+**Apr. 29, 2014 - v3.7**
 
-* Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
+* Added setting to allow showing donation forms on archive pages
 
-**Dec. 9, 2011 - v1.5.2**
+**Mar. 29, 2014 - v3.6**
 
-* Fixed issue preventing custom database prefixes from passing through
+* Complete javascript overhaul to allow more than one donation widget per page
 
-**Feb. 14, 2012 - v1.6**
+**Feb. 13, 2014 - v3.5.1**
 
-* Code refinements to PHP and Javascript
+* Changed attribute used in shortcode to call donation form to prevent duplicate keys. This change is backward compatible and will not break existing donation forms.
 
-**Apr. 22, 2012 - v1.7**
+**Dec. 3, 2013 - v3.5**
 
-* Code fixes and functionality additions
-
-**Jul. 19, 2012 - v1.8**
-
-* Increased security to prevent cross-site scripting attacks
-
-**Aug. 13, 2012 - v1.9**
-
-* Minor code fix to prevent WordPress warning of undefined constant
-
-**Sept. 21, 2012 - v2.0**
-
-* Code fixes to fix HTML validation errors in admin pages
-
-**Dec. 15, 2012 - v2.5**
-
-* Javascript code fixes to prevent WordPress from breaking the code.
-
-**Apr. 22, 2013 - v3.2**
-
-* Added return URL functionality to PayPal forms
-* Increased form submission security
+* Added additional 'Donate' button style options
 
 **May 29, 2013 - v3.3**
 
 * Additional security enhancements
 * Added option update notification
 
-**Dec. 3, 2013 - v3.5**
+**Apr. 22, 2013 - v3.2**
 
-* Added additional 'Donate' button style options
+* Added return URL functionality to PayPal forms
+* Increased form submission security
 
-**Feb. 13, 2014 - v3.5.1**
+**Dec. 15, 2012 - v2.5**
 
-* Changed attribute used in shortcode to call donation form to prevent duplicate keys. This change is backward compatible and will not break existing donation forms.
+* Javascript code fixes to prevent WordPress from breaking the code.
 
-**Mar. 29, 2014 - v3.6**
+**Sept. 21, 2012 - v2.0**
 
-* Complete javascript overhaul to allow more than one donation widget per page
+* Code fixes to fix HTML validation errors in admin pages
 
-**Apr. 29, 2014 - v3.7**
+**Aug. 13, 2012 - v1.9**
 
-* Added setting to allow showing donation forms on archive pages
+* Minor code fix to prevent WordPress warning of undefined constant
 
-**May 21, 2014 - v3.7.1**
+**Jul. 19, 2012 - v1.8**
 
-* Fixed 404 error with admin stylesheet
+* Increased security to prevent cross-site scripting attacks
 
-**June 27, 2014 - v3.8**
+**Apr. 22, 2012 - v1.7**
 
-* Minor bug fixes
+* Code fixes and functionality additions
 
+**Feb. 14, 2012 - v1.6**
+
+* Code refinements to PHP and Javascript
+
+**Dec. 9, 2011 - v1.5.2**
+
+* Fixed issue preventing custom database prefixes from passing through
+
+**Sept. 20, 2011 - v1.5.1**
+
+* Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
+
+**Sept. 5, 2011 - v1.5**
+
+* Changed shortcode rendering to fix bug / conflict with excerpt function.
+
+**Aug. 18, 2011 - v1.0**
+
+* Initial release.
