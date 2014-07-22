@@ -62,6 +62,10 @@ Keywords: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' t
 
 == Changelog ==
 
+**July 22, 2014 - v3.9**
+
+* Added short code button for easy isertion through editor
+
 **June 27, 2014 - v3.8**
 
 * Minor bug fixes
