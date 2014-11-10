@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: plugin, e-commerce, Post, e commerce, wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, paypal plugin, donation widget, customizable paypal widget, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
 Requires at least: 2.6
 Tested up to: 4.0
-Stable tag: 3.9.1
+Stable tag: 4.0
 
 WordPress PayPal Plugin. Create custom PayPal donation forms in your pages or posts. WordPress Plugin for PayPal integration.
 
@@ -13,6 +13,8 @@ WordPress PayPal Plugin. Create custom PayPal donation forms in your pages or po
 ### WordPress PayPal Plugin
 
 This **WordPress PayPal plugin** will allow you to create unique customized PayPal donation forms to insert into your WordPress posts or pages and accept donations. WP Plugin for creating custom PayPal donation widgets. PayPal for WordPress. WordPress ecommerce.
+
+**Newly Added** sidebar widget functionality!
 
 **3 PayPal Donation plugins in one! (5 with Pro Version)**
 
@@ -62,9 +64,14 @@ Keywords: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' t
 
 == Changelog ==
 
+**Nov. 7, 2014 - v4.0**
+
+* added donation sidebar widget functionality
+* fixed donate button width style issue
+
 **Aug. 7, 2014 - v3.9.1**
 
-* verified WordPress 3.9.2 compatibility *
+* verified WordPress 3.9.2 compatibility
 
 **July 22, 2014 - v3.9**
 
