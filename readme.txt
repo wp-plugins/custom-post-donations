@@ -64,93 +64,93 @@ Keywords: <a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' t
 
 == Changelog ==
 
-**Dec. 7, 2014 - v4.0.1**
+**4.0.1**
 
-* fixed bug with widget preventing PayPal address from being
+* fixed bug with widget preventing PayPal address from being set
 
-**Nov. 7, 2014 - v4.0**
+**4.0**
 
 * added donation sidebar widget functionality
 * fixed donate button width style issue
 
-**Aug. 7, 2014 - v3.9.1**
+**3.9.1**
 
 * verified WordPress 3.9.2 compatibility
 
-**July 22, 2014 - v3.9**
+**3.9**
 
 * Added short code button for easy isertion through editor
 
-**June 27, 2014 - v3.8**
+**3.8**
 
 * Minor bug fixes
 
-**May 21, 2014 - v3.7.1**
+**3.7.1**
 
 * Fixed 404 error with admin stylesheet
 
-**Apr. 29, 2014 - v3.7**
+**3.7**
 
 * Added setting to allow showing donation forms on archive pages
 
-**Mar. 29, 2014 - v3.6**
+**3.6**
 
 * Complete javascript overhaul to allow more than one donation widget per page
 
-**Feb. 13, 2014 - v3.5.1**
+**3.5.1**
 
 * Changed attribute used in shortcode to call donation form to prevent duplicate keys. This change is backward compatible and will not break existing donation forms.
 
-**Dec. 3, 2013 - v3.5**
+**3.5**
 
 * Added additional 'Donate' button style options
 
-**May 29, 2013 - v3.3**
+**3.3**
 
 * Additional security enhancements
 * Added option update notification
 
-**Apr. 22, 2013 - v3.2**
+**3.2**
 
 * Added return URL functionality to PayPal forms
 * Increased form submission security
 
-**Dec. 15, 2012 - v2.5**
+**2.5**
 
 * Javascript code fixes to prevent WordPress from breaking the code.
 
-**Sept. 21, 2012 - v2.0**
+**2.0**
 
 * Code fixes to fix HTML validation errors in admin pages
 
-**Aug. 13, 2012 - v1.9**
+**1.9**
 
 * Minor code fix to prevent WordPress warning of undefined constant
 
-**Jul. 19, 2012 - v1.8**
+**1.8**
 
 * Increased security to prevent cross-site scripting attacks
 
-**Apr. 22, 2012 - v1.7**
+**1.7**
 
 * Code fixes and functionality additions
 
-**Feb. 14, 2012 - v1.6**
+**1.6**
 
 * Code refinements to PHP and Javascript
 
-**Dec. 9, 2011 - v1.5.2**
+**1.5.2**
 
 * Fixed issue preventing custom database prefixes from passing through
 
-**Sept. 20, 2011 - v1.5.1**
+**1.5.1**
 
 * Fixed issue with error notification not being removed on overview page - 'Please enter your PayPal email address.'
 
-**Sept. 5, 2011 - v1.5**
+**1.5**
 
 * Changed shortcode rendering to fix bug / conflict with excerpt function.
 
-**Aug. 18, 2011 - v1.0**
+**1.0**
 
 * Initial release.
