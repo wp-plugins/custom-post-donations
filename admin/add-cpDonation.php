@@ -57,6 +57,8 @@ if(isset($_POST['cpDonation_add']))
 ?>
 <div class='wrap cp-donations'>
 	<h2>Add Donation - Create custom donation widget</h2>
+	<p style="float: right; font-weight: bold; font-style: italic;"><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Try Custom Post Donations Pro</a></p>
+	<div style="clear: both;"></div>
     <form name="add_cpdonation_form" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>" method="post">
     <input type="hidden" name="cpDonation_add" value="true" />
     <?php wp_nonce_field('cp_donation','cp_donation'); ?> 
@@ -143,7 +145,8 @@ if(isset($_POST['cpDonation_add']))
     <p><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" alt="Custom Post Donations Pro" /></a></p>
      <h2><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank">Upgrade to the Pro Version</a></h2>
      <ul>        
-        <li>New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations</li>
+        <li>Edit display text for donation form fields</li>
+		<li>New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations</li>
         <li>Now supports multiple currencies</li>
         <li>Add customized donation forms to your posts or pages</li>
         <li>Designate alternate PayPal accounts for donations</li>
