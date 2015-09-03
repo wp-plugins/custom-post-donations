@@ -2,9 +2,9 @@
 Contributors: hahncgdev
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YEAT8SE2TXE3S
 Tags: plugin, e-commerce, Post, e commerce, wordpress donation, wordpress paypal plugin, paypal, ecommerce, paypal for wordpress, campaign donations, paypal in wordpress, wordpress paypal, paypal, donation, donations, paypal plugin, donation widget, customizable paypal widget, wordpress ecommerce, ecommerce plugin, fundraising, wordpress donation plugin
-Requires at least: 2.6
-Tested up to: 4.2.2
-Stable tag: 4.1
+Requires at least: 3.0
+Tested up to: 4.3
+Stable tag: 4.1.1
 
 WordPress PayPal Plugin. Create custom PayPal donation forms in your pages or posts. WordPress Plugin for PayPal integration.
 
@@ -16,17 +16,17 @@ This **WordPress PayPal plugin** will allow you to create unique customized PayP
 
 **Newly Added** sidebar widget functionality!
 
-**3 PayPal Donation plugins in one! (5 with Pro Version)**
+**3 PayPal Donation plugins in one! (5 with Premium Version)**
 
-<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Upgrade to Pro Version</a>
+<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Upgrade to Premium Version</a>
 
 = PayPal Donation Form Types =
 
-* **Standard Donation** - One editable donation amount field.(<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/standard-donations/'>DEMO</a>)
+* **Standard Donation** - One editable donation amount field. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/standard-donations/'>DEMO</a>)
 * **Fixed + Additional Donation** - One fixed donation amount with an additional editable donation amount field. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/fixed-additional-donation/' title='Fixed + Additional Donation'>DEMO</a>)
 * **Per Item + Additional Donation** - Fixed donation amount per item with an additional editable donation amount field. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-donations/' title='Per Item + Additional Donations'>DEMO</a>)
-* **Per Item + Additional + Fixed Donation** - Same as above, but includes a fixed additional amount. Possibly a shipping charge. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-fixed-donations/' title='Custom Post Donations Pro – $5.95'>Pro version only</a>)
-* **Campaign Donation** - Donations plus Fields for Name, Address, Occupation and Employer. Meets Federal Election Commission (FEC) requirements. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/' title='Custom Post Donations Pro – $5.95'>Pro version only</a>)
+* **Per Item + Additional + Fixed Donation** - Same as above, but includes a fixed additional amount. Possibly a shipping charge. (<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations/per-item-additional-fixed-donations/' title='Custom Post Donations Pro – $9'>Premium version only</a>)
+* **Campaign Donation** - Donations plus Fields for Name, Address, Occupation and Employer. Meets Federal Election Commission (FEC) requirements. (<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='Custom Post Donations Pro – $9'>Premium version only</a>)
 
 = PayPal Plugin Features =
 
@@ -37,10 +37,10 @@ This **WordPress PayPal plugin** will allow you to create unique customized PayP
 * Add donation form titles
 * Manage multiple donation forms from the easy access admin interface.
 * Ability to edit donation widgets.
-* German Translation Added - **Deutsch &Uuml;bersetzung hinzugef&uuml;gt** (<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
-* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Pro</a>/<a href='http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-premium/'>Premium</a> versions only)
+* German Translation Added - **Deutsch &Uuml;bersetzung hinzugef&uuml;gt** (<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Premium</a> version only)
+* Spanish Translation Added - **Traducci&oacute;n al espa&ntilde;ol a&ntilde;adi&oacute;** (<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='WordPress PayPal Plugin'>Premium</a> version only)
 
-<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Pro Version</a>
+<a href='http://labs.hahncreativegroup.com/wordpress-paypal-plugin/' title='wordpress paypal plugin'>Upgrade to Premium Version</a>
 
 For more information about this *WordPress PayPal Plugin*: http://labs.hahncreativegroup.com/wordpress-paypal-plugin/
 

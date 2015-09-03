@@ -4,7 +4,7 @@ Plugin Name: Custom Post Donations
 Plugin URI: http://labs.hahncreativegroup.com/wordpress-paypal-plugin/
 Description: This WordPress plugin will allow you to create unique customized PayPal donation widgets on WordPress posts or pages and accept donations. Creates custom PayPal donation widgets.
 Author: HahnCreativeGroup
-Version: 4.1
+Version: 4.1.1
 Author URI: http://labs.hahncreativegroup.com/wordpress-paypal-plugin/
 */
 

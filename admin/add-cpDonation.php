@@ -57,7 +57,7 @@ if(isset($_POST['cpDonation_add']))
 ?>
 <div class='wrap cp-donations'>
 	<h2>Add Donation - Create custom donation widget</h2>
-	<p style="float: right; font-weight: bold; font-style: italic;"><a href="http://labs.hahncreativegroup.com/wordpress-plugins/custom-post-donations-pro/?src=cpd">Try Custom Post Donations Pro</a></p>
+	<p style="float: right; font-weight: bold; font-style: italic;"><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd">Try Custom Post Donations Premium</a></p>
 	<div style="clear: both;"></div>
     <form name="add_cpdonation_form" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>" method="post">
     <input type="hidden" name="cpDonation_add" value="true" />
@@ -142,8 +142,8 @@ if(isset($_POST['cpDonation_add']))
             </tr>
             </tbody>
             </table>     
-    <p><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2011/10/CustomPostDonationsPro-Banner.gif" width="374" height="60" alt="Custom Post Donations Pro" /></a></p>
-     <h2><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank">Upgrade to the Pro Version</a></h2>
+    <p><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank"><img src="http://labs.hahncreativegroup.com/wp-content/uploads/2015/09/CustomPostDonationsPro-Banner.gif" width="400" height="60" alt="Custom Post Donations Pro" /></a></p>
+     <h2><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank">Upgrade to the Premium Version</a></h2>
      <ul>        
         <li>Edit display text for donation form fields</li>
 		<li>New 'Campaign' donation type captures name, address, employer and occupation - follows Federal Election Commission (FEC) regulations</li>
@@ -154,7 +154,7 @@ if(isset($_POST['cpDonation_add']))
         <li>Manage multiple donation forms from the easy access admin interface</li>
         <li>Ability to edit donation widgets</li>
      </ul>
-     <strong><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank">Upgrade to the Pro Version</a></strong>
+     <strong><a href="http://labs.hahncreativegroup.com/wordpress-paypal-plugin/?src=cpd" target="_blank">Upgrade to the Premium Version</a></strong>
      <hr />
      <h3>Try also - <a href="http://labs.hahncreativegroup.com/wordpress-gallery-plugin/?src=cpd" target="_blank">WP Easy Gallery Pro</a></h3>
      <p>WP Easy Gallery allows you to manage multiple image galleries through an easy to use admin interface.</p> 
